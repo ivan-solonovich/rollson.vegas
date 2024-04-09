@@ -18,6 +18,9 @@
   height: 100vh;
   background-image: url(@/public/images/bg_main.png);
   overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 .wrapper{
   width: 100vw;
