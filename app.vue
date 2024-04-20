@@ -1,15 +1,20 @@
 <template>
   <div>
-    <index/>
+    <NuxtLayout>
+      <NuxtPage/>
+    </NuxtLayout>
+
   </div>
 </template>
 <script setup lang="ts">
-import Index from "public/pages/index.vue";
+
 </script>
 <style>
 body{
+  width: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 </style>
