@@ -18,7 +18,7 @@
   width: 100%;
   height: 80px;
   display: flex;
-  justify-content:start;
+  justify-content:center;
   align-items: center;
   padding-right: 1rem;
 }

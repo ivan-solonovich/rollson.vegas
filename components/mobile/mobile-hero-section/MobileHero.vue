@@ -1,7 +1,38 @@
 <script >
+
+
 export default {
 
+  data() {
+    return {
+      data: [
+        {
+          image: "@/assets/images/slideShow/1.jpg",
+          name: '1'
+        },
+        {
+          image: "@/assets/images/slideShow/2.jpg",
+          name: '2'
+        },
+        {
+          image: "@/assets/images/slideShow/3.jpg",
+          name: '3'
+        },
 
+      ],
+    };
+  },
+  setup() {
+    const onSwiper = (swiper) => {
+      return swiper;
+    };
+    const onSlideChange = () => {};
+    return {
+      onSwiper,
+      onSlideChange,
+
+    };
+  },
   created() {
     if(process.client){
       const video = document.getElementById('hero-video')
@@ -47,13 +78,20 @@ export default {
         <h5>PREMIUM TILES CEILINGS AND LITING</h5>
 
       </div>
-      <button type="button" class=" z-99 text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Lime</button>
+      <div class="hero-title">
+        <div class="carousel z-100">
+
+          <img src="@/assets/images/slideShow/show.png" alt="">
+
+        </div>
+      </div>
       <video id="hero-video"  autoplay playsinline loop muted class=" z-10   bg-opacity-30" poster="@/assets/video/Tiles_main.jpeg">
         <source src="@/assets/video/Tiles_main.mp4" type="video/mp4">Your browser does not support the video tag.
         <source src="@/assets/video/Tiles_main_compressed.webm" type="video/webm">Your browser does not support the video tag.
       </video>
     </div>
     </div>
+
 
   </div>
 </div>
@@ -124,9 +162,14 @@ export default {
 #hero-slogan{
   font-family: Roboto;
   color: white;
+  font-size: .9rem;
 }
 .hero-photo{
   width: 70%;
+  height: auto;
+}
+.slide-show{
+  width: 100px;
   height: auto;
 }
 .hero-features{

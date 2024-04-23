@@ -16,7 +16,6 @@ const { isTablet } = useDevice();
  </div>
   <div v-if="isMobile || isTablet" class="m-wrapper">
     <HeaderMobile/>
-<!--    <HeroSection/>-->
     <MobileHero/>
   </div>
 </div>

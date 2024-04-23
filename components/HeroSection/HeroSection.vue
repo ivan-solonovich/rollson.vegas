@@ -1,5 +1,5 @@
 <script >
-
+import "swiper/css";
 
 export default {
 
@@ -53,20 +53,22 @@ export default {
           <h4>PREMIUM TILES CEILINGS AND LITING</h4>
         </div>
     </div>
+      <div id="hero-container" class="hero-container m-10 p-10">
       <div class="hero-title-wrapper">
         <div class="carousel z-100">
 
-
+          <img src="@/assets/images/slideShow/show.png" alt="">
 
         </div>
       </div>
     </div>
-
+    </div>
 
   </div>
 </template>
 
 <style scoped>
+
 .hero-section{
   width: 100%;
   padding-top: 10px;
@@ -124,6 +126,13 @@ export default {
 }
 .hero-photo{
   width: 70%;
+  height: auto;
+}
+.carousel{
+  max-width: 200px;
+}
+.slide-show{
+  width: 100%;
   height: auto;
 }
 .hero-features{

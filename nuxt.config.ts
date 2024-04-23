@@ -21,6 +21,7 @@ export default defineNuxtConfig({
   modules:[
     ["@nuxt/image"],
     ['@vueuse/nuxt'],
+     ['nuxt-swiper'],
     ['@nuxtjs/device'],
     ['@nuxtjs/google-fonts', {
    families: {
