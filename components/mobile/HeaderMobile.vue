@@ -2,6 +2,7 @@
 
 import MobileNavigation from "~/components/mobile/navMobile/MobileNavigation.vue";
 import LogoMobileContainer from "~/components/mobile/navMobile/LogoMobileContainer.vue";
+import MobileHero from "~/components/mobile/mobile-hero-section/MobileHero.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import LogoMobileContainer from "~/components/mobile/navMobile/LogoMobileContain
     <LogoMobileContainer/>
     <MobileNavigation/>
   </div>
+  <MobileHero/>
 </template>
 
 <style scoped>

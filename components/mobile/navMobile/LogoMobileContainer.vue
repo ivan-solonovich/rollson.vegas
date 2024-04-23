@@ -3,13 +3,22 @@
 </script>
 
 <template>
+  <nav>
   <div class="logo-container">
-    <img class="logo" src="@/assets/images/logo_without.png"/>
-
+    <img class="logo" src="@/assets/images/logo_without.png" alt="Rollson_logo"/>
   </div>
+
+  </nav>
 </template>
 
 <style scoped>
+nav{
+  display: grid;
+  grid-template-columns: 10fr 2fr;
+  grid-gap: 2rem;
+  align-self: center;
+  justify-self: center;
+}
 .logo-container{
   width: 100%;
   height: 80px;
