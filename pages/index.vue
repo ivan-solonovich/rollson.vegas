@@ -1,5 +1,6 @@
 <script setup>
 import HeaderMobile from "~/components/mobile/HeaderMobile.vue";
+import MobileHero from "~/components/mobile/mobile-hero-section/MobileHero.vue";
 
 const { isDesktop } = useDevice();
 const { isMobile } = useDevice();
@@ -16,15 +17,7 @@ const { isTablet } = useDevice();
   <div v-if="isMobile || isTablet" class="m-wrapper">
     <HeaderMobile/>
 <!--    <HeroSection/>-->
-    <div class="works">
-      <h1>Mobile</h1>
-      <h3>Professional Tile Installation</h3>
-      <h3> Stretch Ceiling</h3>
-      <h3>Bathroom and Kitchen renovations</h3>
-      <h3>Painting service & Wall texture</h3>
-      <h3>Door and Windows replacement</h3>
-      <h3>PREMIUM TILES CEILINGS AND LITING</h3>
-    </div>
+    <MobileHero/>
   </div>
 </div>
 </template>

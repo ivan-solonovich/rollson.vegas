@@ -27,12 +27,10 @@ export default {
 </script>
 
 <template>
-<div class="hero-mobile-wrapper hero-container hero-section">
-  <video id="hero-video"  autoplay playsinline loop muted class=" z-10   bg-opacity-30" poster="@/assets/video/Tiles_main.jpeg">
-    <source src="@/assets/video/Tiles_main.mp4" type="video/mp4">Your browser does not support the video tag.
-    <source src="@/assets/video/Tiles_main_compressed.webm" type="video/webm">Your browser does not support the video tag.
-  </video>
-  <div id="hero-container" class="hero-container m-10 p-10">
+<div class="hero-mobile-wrapper hero-section">
+  <div class="hero-container">
+
+  <div id="hero-container"  class="hero-section">
     <div class="hero-title-wrapper">
       <div class="hero-title">
         <img class="hero-title-img m-8 p-8" src="@/assets/images/logo_without.png" alt="">
@@ -47,20 +45,30 @@ export default {
           </ul>
         </div>
         <h5>PREMIUM TILES CEILINGS AND LITING</h5>
+
       </div>
+      <button type="button" class=" z-99 text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Lime</button>
+      <video id="hero-video"  autoplay playsinline loop muted class=" z-10   bg-opacity-30" poster="@/assets/video/Tiles_main.jpeg">
+        <source src="@/assets/video/Tiles_main.mp4" type="video/mp4">Your browser does not support the video tag.
+        <source src="@/assets/video/Tiles_main_compressed.webm" type="video/webm">Your browser does not support the video tag.
+      </video>
     </div>
+    </div>
+
+  </div>
 </div>
-</div>
+
 </template>
 
 <style scoped>
 .hero-section{
   width: 100%;
-  padding-top: 10px;
   position: relative;
   display: flex;
-  justify-items: center;
-  height: 100vh;
+
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   margin-bottom: 6px;
   box-sizing: border-box;
   overflow: hidden;
@@ -74,18 +82,27 @@ export default {
   min-width: 100%;
   z-index: 10;
 }
-.hero-container{
+#hero-container{
   width: 100%;
   z-index: 100;
-  display: grid;
-   align-self: center;
-  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-title-wrapper{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+
 }
 .hero-title-wrapper{
   width: 100%;
   display: flex;
   justify-content: center;
-
 }
 .hero-title{
   width: 70%;
@@ -100,7 +117,7 @@ export default {
   color: #ffe975;
 }
 .hero-title-img{
-  width: 50%;
+  width: 40%;
   height: auto;
   margin: 1rem;
 }

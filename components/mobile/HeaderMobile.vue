@@ -10,7 +10,7 @@ import MobileHero from "~/components/mobile/mobile-hero-section/MobileHero.vue";
     <LogoMobileContainer/>
     <MobileNavigation/>
   </div>
-  <MobileHero/>
+
 </template>
 
 <style scoped>
