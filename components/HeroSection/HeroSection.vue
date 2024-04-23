@@ -33,8 +33,8 @@ export default {
   <div class="hero-section ">
 
     <video id="hero-video"  autoplay playsinline loop muted class=" z-10   bg-opacity-30" poster="@/assets/video/poster.png">
-      <source src="@/assets/video/compressed_hero.mp4" type="video/mp4">Your browser does not support the video tag.
-      <source src="@/assets/video/compressed_hero.webm" type="video/webm">Your browser does not support the video tag.
+      <source src="@/assets/video/Tiles_main.mp4" type="video/mp4">Your browser does not support the video tag.
+      <source src="@/assets/video/Tiles_main_compressed.webm" type="video/webm">Your browser does not support the video tag.
     </video>
     <div id="hero-container" class="hero-container m-10 p-10">
       <div class="hero-title-wrapper">
