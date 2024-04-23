@@ -32,7 +32,7 @@ export default {
 <template>
   <div class="hero-section ">
 
-    <video id="hero-video"  autoplay playsinline loop muted class=" z-10   bg-opacity-30" poster="@/assets/video/poster.png">
+    <video id="hero-video"  autoplay playsinline loop muted class=" z-10   bg-opacity-30" poster="@/assets/video/Tiles_main.jpeg">
       <source src="@/assets/video/Tiles_main.mp4" type="video/mp4">Your browser does not support the video tag.
       <source src="@/assets/video/Tiles_main_compressed.webm" type="video/webm">Your browser does not support the video tag.
     </video>
