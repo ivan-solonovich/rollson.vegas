@@ -13,9 +13,7 @@
 
 <style scoped>
 nav{
-  background-image: url(public/images/bg_main.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+
   display: grid;
   grid-template-columns: 10fr 2fr;
   grid-gap: 2rem;
@@ -35,8 +33,5 @@ nav{
   padding-right: 1rem;
   height: 30px;
 }
-.slogan{
-  color: white;
-  font-size: .8rem;
-}
+
 </style>

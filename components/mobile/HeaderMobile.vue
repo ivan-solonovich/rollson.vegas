@@ -17,9 +17,7 @@ import MobileHero from "~/components/mobile/mobile-hero-section/MobileHero.vue";
 .app-header-mobile{
   width: 100%;
   height: 80px;
-  background-image: url(public/images/bg_main.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   display: grid;

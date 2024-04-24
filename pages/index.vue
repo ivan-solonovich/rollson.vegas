@@ -40,10 +40,13 @@ const { isTablet } = useDevice();
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgb(4,2,5);
+  background: linear-gradient(135deg, rgba(4,2,5,1) 30%, rgba(255,233,117,1) 68%, rgba(249,225,114,1) 92%, rgba(191,147,85,1) 99%);
 }
 .m-wrapper{
   width: 100%;
-
+  background: rgb(4,2,5);
+  background: linear-gradient(135deg, rgba(4,2,5,1) 30%, rgba(255,233,117,1) 68%, rgba(249,225,114,1) 92%, rgba(191,147,85,1) 99%);
   overflow: hidden;
   padding: 0;
   margin: 0;

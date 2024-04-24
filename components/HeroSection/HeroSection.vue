@@ -32,10 +32,10 @@ export default {
 <template>
   <div class="hero-section ">
 
-    <video id="hero-video"  autoplay playsinline loop muted class=" z-10   bg-opacity-30" poster="@/assets/video/Tiles_main.jpeg">
-      <source src="@/assets/video/Tiles_main.mp4" type="video/mp4">Your browser does not support the video tag.
-      <source src="@/assets/video/Tiles_main_compressed.webm" type="video/webm">Your browser does not support the video tag.
-    </video>
+<!--    <video id="hero-video"  autoplay playsinline loop muted class=" z-10   bg-opacity-30" poster="@/assets/video/Tiles_main.jpeg">-->
+<!--      <source src="@/assets/video/Tiles_main.mp4" type="video/mp4">Your browser does not support the video tag.-->
+<!--      <source src="@/assets/video/Tiles_main_compressed.webm" type="video/webm">Your browser does not support the video tag.-->
+<!--    </video>-->
     <div id="hero-container" class="hero-container m-10 p-10">
       <div class="hero-title-wrapper">
         <div class="hero-title">
@@ -66,7 +66,6 @@ export default {
 
 .hero-section{
   width: 100%;
-  padding-top: 10px;
   position: relative;
   display: flex;
   justify-items: center;
@@ -75,6 +74,7 @@ export default {
   box-sizing: border-box;
   overflow: hidden;
   font-family: Roboto;
+
 }
 #hero-video{
   margin: 0;
@@ -82,7 +82,6 @@ export default {
   position: absolute;
   box-sizing: border-box;
   min-width: 100%;
-
   z-index: 10;
 }
 .hero-container{
@@ -103,7 +102,6 @@ export default {
 }
 .hero-title{
   width: 70%;
-
   border-radius: 3rem;
   display: flex;
   justify-content: space-between;
@@ -113,12 +111,18 @@ export default {
   color: #ffe975;
 }
 .hero-title-img{
-  width: 50%;
+  width: 20%;
   height: auto;
   margin: 1rem;
 }
 #hero-slogan{
   font-family: Roboto;
+  font-weight: bolder;
+  font-size: 3rem;
+  background: #FFE975;
+  background: radial-gradient(circle farthest-corner at center center, #FFE975 0%, #231421 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: white;
   -webkit-text-stroke: 2px #000;
   text-stroke: 2px black;
@@ -129,6 +133,12 @@ export default {
 .item-works{
   font-weight: bold;
   font-size: 2rem;
+  background: #C1C9CB;
+  background: radial-gradient(circle farthest-corner at center center, #C1C9CB 0%, #231421 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #000;
+  text-stroke: 1px black;
 }
 .hero-features{
 

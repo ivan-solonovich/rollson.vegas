@@ -8,20 +8,22 @@ export default defineNuxtConfig({
   device: {
         refreshOnResize: true
     },
+
   postcss: {
     plugins: {
-
+      tailwindcss: {},
       autoprefixer: {},
 
     },
-
+      css: ["~/assets/css/main.css"],
   },
-    css: ["~/assets/css/main.css"],
+
 
   modules:[
     ["@nuxt/image"],
     ['@vueuse/nuxt'],
-     ['nuxt-swiper'],
+      ['@nuxtjs/tailwindcss'],
+    ['nuxt-swiper'],
     ['@nuxtjs/device'],
     ['@nuxtjs/google-fonts', {
    families: {
@@ -33,7 +35,8 @@ export default defineNuxtConfig({
      Montserrat: true
    }
  }],
-    "@nuxtjs/device"
+    "@nuxtjs/device",
+    "@nuxtjs/tailwindcss"
   ],
     router: {
         middleware: ['mobile']

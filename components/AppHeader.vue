@@ -11,9 +11,7 @@
 <style scoped>
 .app-header{
   width: 100%;
-  background-image: url(public/images/bg_main.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+
 
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
