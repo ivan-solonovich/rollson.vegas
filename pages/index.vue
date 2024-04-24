@@ -10,8 +10,8 @@ const { isTablet } = useDevice();
 <template>
 <div class="main">
   <div v-if="isDesktop" class="wrapper">
-   <AppHeader/>
-  <HeroSection/>
+    <AppHeader/>
+    <HeroSection/>
 
  </div>
   <div v-if="isMobile || isTablet" class="m-wrapper">
@@ -24,9 +24,7 @@ const { isTablet } = useDevice();
 <style>
 .main{
   width: 100%;
-  background-image: url(public/images/bg_main.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+
   overflow: hidden;
   padding: 0;
   margin: 0;
@@ -45,9 +43,7 @@ const { isTablet } = useDevice();
 }
 .m-wrapper{
   width: 100%;
-  background-image: url(public/images/bg_main.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+
   overflow: hidden;
   padding: 0;
   margin: 0;

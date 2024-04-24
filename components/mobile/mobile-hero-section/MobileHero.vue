@@ -78,13 +78,7 @@ export default {
         <h5>PREMIUM TILES CEILINGS AND LITING</h5>
 
       </div>
-      <div class="hero-title">
-        <div class="carousel z-100">
 
-          <img src="@/assets/images/slideShow/show.png" alt="">
-
-        </div>
-      </div>
       <video id="hero-video"  autoplay playsinline loop muted class=" z-10   bg-opacity-30" poster="@/assets/video/Tiles_main.jpeg">
         <source src="@/assets/video/Tiles_main.mp4" type="video/mp4">Your browser does not support the video tag.
         <source src="@/assets/video/Tiles_main_compressed.webm" type="video/webm">Your browser does not support the video tag.
@@ -144,8 +138,8 @@ export default {
 }
 .hero-title{
   width: 70%;
-  padding: 2rem;
-  background: rgba( 193,201,203, 0.4 );
+  padding: 1.5rem;
+
   border-radius: 3rem;
   display: flex;
   justify-content: space-between;
@@ -163,6 +157,8 @@ export default {
   font-family: Roboto;
   color: white;
   font-size: .9rem;
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
 }
 .hero-photo{
   width: 70%;
