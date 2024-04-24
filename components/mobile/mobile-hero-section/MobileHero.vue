@@ -81,7 +81,6 @@ export default {
 
 .hero-title{
   width: 100%;
-  border-radius: 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -90,7 +89,7 @@ export default {
   color: #ffe975;
 }
 .hero-title-img{
-  width: 60%;
+  width: 40%;
   height: auto;
   margin-bottom: 1rem;
 }
@@ -99,24 +98,25 @@ export default {
   text-align: center;
   font-weight: bolder;
   font-size: 2rem;
-  text-shadow: #FFE975 3px 3px 3px;
   background: #FFE975;
   background: radial-gradient(circle farthest-corner at center center, #FFE975 0%, #231421 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: white;
-  -webkit-text-stroke: 1px #000;
-  text-stroke: 1px #000;
+  -webkit-text-stroke: 2px #000;
+  text-stroke: 2px black;
+  padding-bottom: 1rem;
 }
 .item-works{
+  text-align: center;
   font-weight: bold;
+  font-size: 1.3rem;
   background: #C1C9CB;
   background: radial-gradient(circle farthest-corner at center center, #C1C9CB 0%, #231421 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #000;
   text-stroke: 1px black;
-  text-shadow: white 1px 1px ;
 }
 
 svg {
@@ -132,13 +132,13 @@ svg text {
 @keyframes stroke {
   0%   {
     fill: rgba(191,147,85,0); stroke: rgba(44,40,20,1);
-    stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+    stroke-dashoffset: -25%; stroke-dasharray: 0 50%; stroke-width: 2;
   }
   70%  {fill: rgba(191,147,85,0); stroke: rgba(44,40,20,1); }
   80%  {fill: rgba(191,147,85,0); stroke: rgba(44,40,20,1); stroke-width: 3; }
   100% {
     fill: rgba(191,147,85,1); stroke: rgba(44,40,20,0);
-    stroke-dashoffset: 25%; stroke-dasharray: 50% 0; stroke-width: 0;
+    stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
   }
 }
 .button-container{
