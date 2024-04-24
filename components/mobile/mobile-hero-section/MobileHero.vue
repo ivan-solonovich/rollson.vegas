@@ -16,7 +16,7 @@ export default {
       <div class="hero-title">
         <img class="hero-title-img" src="@/assets/images/logo_without.png" alt="">
         <h1 id="hero-slogan">BEST QUALITY IN DESIGN SOLUTIONS</h1>
-        <div class="hero-features m-8 p-8">
+        <div class="hero-features ">
           <ul class="works-list">
             <li class="item-works">Professional Tile Installation</li>
             <li class="item-works">Stretch Ceiling</li>
@@ -24,8 +24,13 @@ export default {
             <li class="item-works">Painting service & Wall texture</li>
             <li class="item-works">Door and Windows replacement</li>
           </ul>
+
         </div>
-        <h5>PREMIUM TILES CEILINGS AND LITING</h5>
+        <svg>
+          <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+            PREMIUM TILES CEILINGS AND LIGHTING
+          </text>
+        </svg>
 
       </div>
 
@@ -48,7 +53,7 @@ export default {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 6px;
+
   box-sizing: border-box;
   overflow: hidden;
   font-family: Roboto;
@@ -112,6 +117,31 @@ export default {
   text-stroke: 1px black;
   text-shadow: white 1px 1px ;
 }
+
+svg {
+  font-family: "Roboto", sans-serif;
+  width: 100%; height: 100%;
+}
+svg text {
+  animation: stroke 5s infinite alternate;
+  stroke-width: 2;
+  stroke: #2C2814;
+  font-size: 1rem;
+}
+@keyframes stroke {
+  0%   {
+    fill: rgba(191,147,85,0); stroke: rgba(44,40,20,1);
+    stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+  }
+  70%  {fill: rgba(191,147,85,0); stroke: rgba(44,40,20,1); }
+  80%  {fill: rgba(191,147,85,0); stroke: rgba(44,40,20,1); stroke-width: 3; }
+  100% {
+    fill: rgba(191,147,85,1); stroke: rgba(44,40,20,0);
+    stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+  }
+}
+
+
 .hero-features{
 
 }

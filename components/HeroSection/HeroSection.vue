@@ -28,9 +28,14 @@ export default {
                 <li class="item-works">Painting service & Wall texture</li>
                 <li class="item-works">Door and Windows replacement</li>
             </ul>
-        </div>
 
-          <h4>PREMIUM TILES CEILINGS AND LITING</h4>
+        </div>
+          <svg>
+            <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+              PREMIUM TILES CEILINGS AND LIGHTING
+            </text>
+          </svg>
+
         </div>
     </div>
       <div id="hero-container" class="hero-container m-10 p-10">
@@ -80,7 +85,7 @@ export default {
   align-items: center;
 }
 .hero-title{
-  width: 70%;
+  width: 100%;
   border-radius: 3rem;
   display: flex;
   justify-content: space-between;
@@ -118,6 +123,28 @@ export default {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #000;
   text-stroke: 1px black;
+}
+svg {
+  font-family: "Roboto", sans-serif;
+  width: 100%; height: 100%;
+}
+svg text {
+  animation: stroke 5s infinite alternate;
+  stroke-width: 2;
+  stroke: #FFE975;
+  font-size: 3rem;
+}
+@keyframes stroke {
+  0%   {
+    fill: rgba(191,147,85,0); stroke: rgba(255,233,117,1);
+    stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+  }
+  70%  {fill: rgba(191,147,85,0); stroke: rgba(255,233,117,1); }
+  80%  {fill: rgba(191,147,85,0); stroke: rgba(255,233,117,1); stroke-width: 3; }
+  100% {
+    fill: rgba(191,147,85,1); stroke: rgba(255,233,117,0);
+    stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+  }
 }
 .hero-features{
 
