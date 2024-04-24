@@ -4,18 +4,6 @@
 export default {
 
 
-  setup() {
-    const onSwiper = (swiper) => {
-      return swiper;
-    };
-    const onSlideChange = () => {};
-    return {
-      onSwiper,
-      onSlideChange,
-
-    };
-  },
-
 }
 </script>
 
@@ -110,8 +98,8 @@ export default {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: white;
-  -webkit-text-stroke: 2px #000;
-  text-stroke: 2px black;
+  -webkit-text-stroke: 1px #000;
+  text-stroke: 1px black;
 }
 .item-works{
   font-weight: bold;
@@ -121,6 +109,7 @@ export default {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #000;
   text-stroke: 1px black;
+  text-shadow: white 1px 1px ;
 }
 .hero-features{
 
