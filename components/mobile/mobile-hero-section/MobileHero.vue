@@ -92,14 +92,14 @@ export default {
   font-family: Roboto;
   text-align: center;
   font-weight: bolder;
-  font-size: 1.4rem;
+  font-size: 2rem;
   background: #FFE975;
   background: radial-gradient(circle farthest-corner at center center, #FFE975 0%, #231421 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: white;
   -webkit-text-stroke: 1px #000;
-  text-stroke: 1px black;
+  text-stroke: 1px #000;
 }
 .item-works{
   font-weight: bold;
