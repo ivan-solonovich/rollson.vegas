@@ -137,7 +137,7 @@ svg text {
   80%  {fill: rgba(191,147,85,0); stroke: rgba(44,40,20,1); stroke-width: 3; }
   100% {
     fill: rgba(191,147,85,1); stroke: rgba(44,40,20,0);
-    stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+    stroke-dashoffset: 25%; stroke-dasharray: 50% 0; stroke-width: 0;
   }
 }
 
