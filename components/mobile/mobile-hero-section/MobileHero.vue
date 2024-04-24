@@ -24,13 +24,13 @@ export default {
             <li class="item-works">Painting service & Wall texture</li>
             <li class="item-works">Door and Windows replacement</li>
           </ul>
-
+          <svg>
+            <text x="50%" y="50%" dy=".35em" text-anchor="middle">
+              PREMIUM TILES CEILINGS AND LIGHTING
+            </text>
+          </svg>
         </div>
-        <svg>
-          <text x="50%" y="50%" dy=".35em" text-anchor="middle">
-            PREMIUM TILES CEILINGS AND LIGHTING
-          </text>
-        </svg>
+
 
       </div>
 
