@@ -72,7 +72,7 @@ export default {
 }
 
 .hero-title{
-  width: 70%;
+  width: 95%;
 
 
   border-radius: 3rem;
