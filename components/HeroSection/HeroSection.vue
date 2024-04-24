@@ -35,7 +35,9 @@ export default {
               PREMIUM TILES CEILINGS AND LIGHTING
             </text>
           </svg>
-
+          <div class="button-container">
+            <button class="testbutton"><a href="+17252220550">&#9742; (725) 222-0550</a></button>
+          </div>
         </div>
     </div>
       <div id="hero-container" class="hero-container m-10 p-10">
@@ -146,6 +148,24 @@ svg text {
     stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
   }
 }
+.testbutton {
+  font-family: helvetica;
+  color: #3D381C !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #FFE975;
+  box-shadow: 1px 2px 3px #FFE975;
+  padding: 7px 25px;
+  border-radius: 10px;
+  border: 2px solid #0D1124;
+  background: #FFE975;
+  background: linear-gradient(to top, #FFE975, #BF9355);
+}
+.testbutton:hover {
+  color: #14396A !important;
+  background: #BF9355;
+  background: linear-gradient(to top, #BF9355, #FFE975);
+}
+
 .hero-features{
 
 }

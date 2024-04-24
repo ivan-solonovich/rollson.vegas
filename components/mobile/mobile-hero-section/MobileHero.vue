@@ -29,6 +29,9 @@ export default {
               PREMIUM TILES CEILINGS AND LIGHTING
             </text>
           </svg>
+          <div class="button-container">
+            <button class="testbutton"><a href="tel:+17252220550"> &#9742; (725) 222-0550</a></button>
+          </div>
         </div>
 
 
@@ -77,9 +80,7 @@ export default {
 }
 
 .hero-title{
-  width: 95%;
-
-
+  width: 100%;
   border-radius: 3rem;
   display: flex;
   justify-content: space-between;
@@ -98,7 +99,7 @@ export default {
   text-align: center;
   font-weight: bolder;
   font-size: 2rem;
-  text-shadow: #FFE975 5px 5px 5px;
+  text-shadow: #FFE975 3px 3px 3px;
   background: #FFE975;
   background: radial-gradient(circle farthest-corner at center center, #FFE975 0%, #231421 100%);
   -webkit-background-clip: text;
@@ -140,7 +141,29 @@ svg text {
     stroke-dashoffset: 25%; stroke-dasharray: 50% 0; stroke-width: 0;
   }
 }
-
+.button-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.testbutton {
+  font-family: helvetica;
+  color: #3D381C !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #FFE975;
+  box-shadow: 1px 2px 3px #FFE975;
+  padding: 7px 25px;
+  border-radius: 10px;
+  border: 2px solid #0D1124;
+  background: #FFE975;
+  background: linear-gradient(to top, #FFE975, #BF9355);
+}
+.testbutton:hover {
+  color: #14396A !important;
+  background: #BF9355;
+  background: linear-gradient(to top, #BF9355, #FFE975);
+}
 
 .hero-features{
 
