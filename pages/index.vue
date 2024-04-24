@@ -46,7 +46,7 @@ const { isTablet } = useDevice();
 .m-wrapper{
   width: 100%;
   background: rgb(4,2,5);
-  background: linear-gradient(135deg, rgba(4,2,5,1) 30%, rgba(255,233,117,1) 68%, rgba(249,225,114,1) 92%, rgba(191,147,85,1) 99%);
+  background: linear-gradient(135deg, rgba(4,2,5,1) 17%, rgba(255,233,117,1) 63%, rgba(249,225,114,1) 83%, rgba(191,147,85,1) 95%);
   overflow: hidden;
   padding: 0;
   margin: 0;
