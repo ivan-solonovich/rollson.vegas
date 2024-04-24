@@ -93,6 +93,7 @@ export default {
   text-align: center;
   font-weight: bolder;
   font-size: 2rem;
+  text-shadow: #FFE975 5px 5px 5px;
   background: #FFE975;
   background: radial-gradient(circle farthest-corner at center center, #FFE975 0%, #231421 100%);
   -webkit-background-clip: text;

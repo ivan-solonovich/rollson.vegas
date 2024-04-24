@@ -4,27 +4,6 @@ import "swiper/css";
 export default {
 
 
-  created() {
-    if(process.client){
-      const video = document.getElementById('hero-video')
-      const heroContainer = document.getElementById('hero-container')
-      window.addEventListener("load", ()=>{
-
-        video.videoOfWidth = window.innerWidth ;
-        video.videOfHeght = (innerWidth*9)/16
-        heroContainer.width = window.innerWidth;
-        heroContainer.height = (innerWidth*9)/16
-      });
-      window.addEventListener("resize", ()=>{
-        console.log(video.videoOfWidth)
-        video.videoOfWidth = window.innerWidth ;
-        video.videOfHeght = (innerWidth*9)/16;
-        heroContainer.width = window.innerWidth;
-        heroContainer.height = (innerWidth*9)/16;
-      });
-    }
-
-  },
 }
 
 </script>
