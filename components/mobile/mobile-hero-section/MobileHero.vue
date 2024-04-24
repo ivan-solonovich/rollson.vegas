@@ -104,7 +104,7 @@ export default {
   -webkit-text-fill-color: transparent;
   color: white;
   -webkit-text-stroke: 2px #000;
-  text-stroke: 1px black;
+  text-stroke: .5px black;
   padding-bottom: 1rem;
 }
 .item-works{
