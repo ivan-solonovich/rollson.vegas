@@ -104,7 +104,7 @@ export default {
   -webkit-text-fill-color: transparent;
   color: white;
   -webkit-text-stroke: 2px #000;
-  text-stroke: 2px black;
+  text-stroke: 1px black;
   padding-bottom: 1rem;
 }
 .item-works{
@@ -116,7 +116,7 @@ export default {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #000;
-  text-stroke: 1px black;
+  text-stroke: .5px black;
 }
 
 svg {
