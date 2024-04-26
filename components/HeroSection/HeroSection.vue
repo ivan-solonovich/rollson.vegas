@@ -11,11 +11,7 @@ export default {
 <template>
   <div class="hero-section ">
 
-<!--    <video id="hero-video"  autoplay playsinline loop muted class=" z-10   bg-opacity-30" poster="@/assets/video/Tiles_main.jpeg">-->
-<!--      <source src="@/assets/video/Tiles_main.mp4" type="video/mp4">Your browser does not support the video tag.-->
-<!--      <source src="@/assets/video/Tiles_main_compressed.webm" type="video/webm">Your browser does not support the video tag.-->
-<!--    </video>-->
-    <div id="hero-container" class="hero-container m-10 p-10">
+    <div id="hero-container" class="hero-container ">
       <div class="hero-title-wrapper">
         <div class="hero-title">
           <img class="hero-title-img m-8 p-8" src="@/assets/images/logo_without.png" alt="">
@@ -40,9 +36,7 @@ export default {
           </div>
         </div>
     </div>
-      <div id="hero-container" class="hero-container m-10 p-10">
 
-    </div>
     </div>
 
   </div>
@@ -56,20 +50,12 @@ export default {
   display: flex;
   justify-items: center;
   align-items: center;
-  margin-bottom: 6px;
   box-sizing: border-box;
   overflow: hidden;
   font-family: Roboto;
 
 }
-#hero-video{
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  box-sizing: border-box;
-  min-width: 100%;
-  z-index: 10;
-}
+
 .hero-container{
   width: 100%;
   height: 100%;
@@ -78,6 +64,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 1rem;
 }
 .hero-title-wrapper{
   width: 100%;
@@ -113,9 +100,7 @@ export default {
   -webkit-text-stroke: 2px #000;
   text-stroke: 2px black;
 }
-.works-list{
 
-}
 .item-works{
   font-weight: bold;
   font-size: 2rem;
@@ -166,7 +151,4 @@ svg text {
   background: linear-gradient(to top, #BF9355, #FFE975);
 }
 
-.hero-features{
-
-}
 </style>

@@ -9,14 +9,19 @@ const { isTablet } = useDevice();
 
 <template>
 <div class="main">
-  <div v-if="isDesktop" class="wrapper">
+  <div v-if="isDesktop" >
+    <div class="wrapper">
     <AppHeader/>
     <HeroSection/>
-
+    </div>
+  <DeskstopBestPracties/>
  </div>
-  <div v-if="isMobile || isTablet" class="m-wrapper">
+  <div v-if="isMobile || isTablet">
+    <div  class="m-wrapper">
     <HeaderMobile/>
     <MobileHero/>
+    </div>
+
   </div>
 </div>
 </template>

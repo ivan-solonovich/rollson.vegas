@@ -106,7 +106,7 @@ export default {
   -webkit-text-stroke: 2px #000;
   text-stroke: 1px black;
   padding-bottom: 1rem;
-  text-shadow: #FFE975 2px 2px 2px;
+  //text-shadow: #FFE975 2px 2px 2px;
 }
 .item-works{
   text-align: center;
@@ -118,7 +118,7 @@ export default {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #000;
   text-stroke: 1px black;
-  text-shadow: #C1C9CB 2px 2px 2px;
+  //text-shadow: #C1C9CB 2px 2px 2px;
 }
 
 svg {
