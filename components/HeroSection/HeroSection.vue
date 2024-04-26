@@ -64,7 +64,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .hero-title-wrapper{
   width: 100%;
