@@ -8,7 +8,7 @@
       <h1 class="text-4xl font-bold text-white mb-4 best-practies-item-title">
         Quality Guarantee
       </h1>
-      <p class="feauters text-lg text-white mb-8 ">
+      <p class="feauters text-lg text-black ">
         With our European quality guarantee, you can rest assured that the materials and craftsmanship used in your renovation are of the highest standard.
       </p>
 

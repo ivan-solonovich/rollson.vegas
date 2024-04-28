@@ -8,7 +8,7 @@
       <h1 class="text-4xl font-bold text-white mb-4 best-practies-item-title">
         Budget friendly
       </h1>
-      <p class="feauters text-lg text-white mb-8">
+      <p class="feauters text-lg text-white ">
         In addition to our commitment to quality, we also offer free estimates to give you a clear understanding of the costs involved in your renovation project.
       </p>
 
