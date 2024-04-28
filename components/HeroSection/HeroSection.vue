@@ -32,6 +32,7 @@ export default {
             </text>
           </svg>
           <div class="button-container">
+            <h3 class="pb-4">Contact us today to learn more about our services and to schedule your free estimate.</h3>
             <button class="testbutton"><a href="+17252220550">&#9742; (725) 222-0550</a></button>
           </div>
         </div>
@@ -150,5 +151,16 @@ svg text {
   background: #BF9355;
   background: linear-gradient(to top, #BF9355, #FFE975);
 }
-
+.button-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #C1C9CB;
+  background: radial-gradient(circle farthest-corner at center center, #C1C9CB 0%, #231421 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #000;
+  text-stroke: 1px black;
+}
 </style>
