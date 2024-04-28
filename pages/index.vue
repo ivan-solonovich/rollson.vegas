@@ -1,6 +1,7 @@
 <script setup>
 import HeaderMobile from "~/components/mobile/HeaderMobile.vue";
 import MobileHero from "~/components/mobile/mobile-hero-section/MobileHero.vue";
+import BestPractiesMobile from "~/components/mobile/best-practies-mobile/BestPractiesMobile.vue";
 
 const { isDesktop } = useDevice();
 const { isMobile } = useDevice();
@@ -21,7 +22,7 @@ const { isTablet } = useDevice();
     <HeaderMobile/>
     <MobileHero/>
     </div>
-
+<BestPractiesMobile/>
   </div>
 </div>
 </template>
