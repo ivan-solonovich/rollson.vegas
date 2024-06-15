@@ -26,8 +26,9 @@ import BP_5 from "~/components/bestpracties/BP_5.vue";
 <style scoped>
 .bp-wrapper{
   //background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
-  background: rgb(4,2,5);
-  background: linear-gradient(135deg, rgba(4,2,5,1) 17%, rgba(255,233,117,1) 63%, rgba(249,225,114,1) 83%, rgba(191,147,85,1) 95%);
+  //background: rgb(4,2,5);
+  //background: linear-gradient(135deg, rgba(4,2,5,1) 17%, rgba(255,233,117,1) 63%, rgba(249,225,114,1) 83%, rgba(191,147,85,1) 95%);
+
 }
 #cssportal-grid {
 
@@ -38,6 +39,7 @@ import BP_5 from "~/components/bestpracties/BP_5.vue";
   gap: 5px;
   width: 100%;
   height: 100%;
+  color: black;
 }
 .why{
   width: 30%;

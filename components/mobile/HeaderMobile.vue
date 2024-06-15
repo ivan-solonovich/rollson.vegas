@@ -23,6 +23,6 @@ import MobileHero from "~/components/mobile/mobile-hero-section/MobileHero.vue";
   display: grid;
   grid-template-columns: auto auto;
   gap: 1.75rem;
-
+  background-color: #000000;
 }
 </style>

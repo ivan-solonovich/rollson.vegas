@@ -15,14 +15,17 @@
         <h6 class="menu-item">Gallery</h6>
         <h6 class="menu-item">Services</h6>
         <h6 class="menu-item">Contact</h6>
+         <h6 class="menu-item">Blog</h6>
 
 
 
     </div>
+
     <div class="logo-container-main">
 <!--   <button>Call me</button>-->
     </div>
   </nav>
+
 </div>
 </template>
 
@@ -56,10 +59,10 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #B8E1FC;
-  background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #231421 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  //background: #B8E1FC;
+  //background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #231421 100%);
+  //-webkit-background-clip: text;
+  //-webkit-text-fill-color: transparent;
 
 }
 .logo{
@@ -69,8 +72,10 @@ nav{
 }
 .menu-item{
   font-weight: bolder;
-  padding-right: 2rem;
-  text-shadow: 1px 1px 0px #ffe975;
+  padding-right: 3rem;
+  color: white;
+
+  //text-shadow: 1px 1px 0px #ffe975;
 
 }
 .slogan{

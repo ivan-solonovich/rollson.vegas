@@ -8,42 +8,46 @@ export default {
 </script>
 
 <template>
-<div class="hero-mobile-wrapper hero-section">
-  <div class="hero-container">
+  <div class="hero-section h-96  bg-black">
 
-  <div id="hero-container"  class="hero-section">
-    <div class="hero-title-wrapper">
-      <div class="hero-title">
-        <img class="hero-title-img" src="@/assets/images/logo_without.png" alt="">
-        <h1 id="hero-slogan">BEST QUALITY IN DESIGN SOLUTIONS</h1>
-        <div class="hero-features ">
-          <ul class="works-list">
-            <li class="item-works">Professional Tile Installation</li>
-            <li class="item-works">Stretch Ceiling</li>
-            <li class="item-works">Bathroom and Kitchen renovations</li>
-            <li class="item-works">Painting service & Wall texture</li>
-            <li class="item-works">Door and Windows replacement</li>
-          </ul>
+    <div id="hero-container" class="hero-container ">
+      <div class="hero-title-wrapper pt-1/2">
+        <div class="hero-title">
+          <!--          <img class="hero-title-img " src="@/assets/images/logo_without.png" alt="">-->
+          <!--          <h1 id="hero-slogan">BEST QUALITY IN DESIGN SOLUTIONS</h1>-->
+          <!--          <img class="w-1/4 h-auto pt-4" src="@/assets/images/tiles_Images/Internal_finishes.png" alt="">-->
+          <!--          <div class="hero-features m-2 p-2">-->
+          <!--            <ul class="works-list">-->
+          <!--                <li class="item-works">Professional Tile Installation</li>-->
+          <!--                <li class="item-works">Stretch Ceiling</li>-->
+          <!--                <li class="item-works">Bathroom and Kitchen renovations</li>-->
+          <!--                <li class="item-works">Painting service & Wall texture</li>-->
+          <!--                <li class="item-works">Door and Windows replacement</li>-->
+          <!--            </ul>-->
+
+          <!--        </div>-->
           <svg>
-            <text x="50%" y="50%" dy=".35em" text-anchor="middle">
-              PREMIUM TILES CEILINGS AND LIGHTING
+            <text x="50%" y="70%" dy=".15em" text-anchor="middle">
+              European quality
+              standard
             </text>
           </svg>
-          <div class="button-container">
-            <button class="testbutton"><a href="tel:+17252220550"> &#9742; (725) 222-0550</a></button>
-          </div>
+<!--          <div class="button-container">-->
+<!--            <h3 class="pb-4">Contact us today to learn more about our services and to schedule your free estimate.</h3>-->
+<!--            <button class="testbutton"><a href="+17252220550">&#9742; (725) 222-0550</a></button>-->
+<!--          </div>-->
         </div>
-
-
       </div>
-
-
+      <div class="button-container">
+<!--        <h6 class="pb-4 text-center">Contact us today to learn more about our services and to schedule your free estimate.</h6>-->
+        <button class="testbutton"><a href="+17252220550">&#9742; (725) 222-0550</a></button>
+      </div>
     </div>
-    </div>
-
-
+    <video id="main-video"  autoplay playsinline loop muted class="absolute box-border z-10 w-auto w-screen min-h-full max-w-none bg-opacity-50" poster="@/assets/video/Rollson-home-renovation-company.avif">
+      <source src="@/assets/video/RB.mp4" type="video/mp4">Your browser does not support the video tag.
+      <source src="@/assets/video/RB.webm" type="video/webm">Your browser does not support the video tag.
+    </video>
   </div>
-</div>
 
 </template>
 
@@ -52,75 +56,44 @@ export default {
   width: 100%;
   position: relative;
   display: flex;
-
+  justify-items: center;
   align-items: center;
-  flex-direction: column;
-  justify-content: center;
-
   box-sizing: border-box;
   overflow: hidden;
   font-family: Roboto;
+
 }
 
-#hero-container{
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.hero-title-wrapper{
+.hero-container{
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-top: 2rem;
-
-}
-
-.hero-title{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
   z-index: 100;
-  color: #ffe975;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+
 }
+
+
 .hero-title-img{
-  width: 40%;
+  width: 20%;
   height: auto;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 #hero-slogan{
   font-family: Roboto;
-  text-align: center;
   font-weight: bolder;
-  font-size: 2rem;
-  background: #FFE975;
-  background: radial-gradient(circle farthest-corner at center center, #FFE975 0%, #231421 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
   color: white;
-  -webkit-text-stroke: 2px #000;
-  text-stroke: 1px black;
-  padding-bottom: 1rem;
-  //text-shadow: #FFE975 2px 2px 2px;
-}
-.item-works{
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.3rem;
-  background: #C1C9CB;
-  background: radial-gradient(circle farthest-corner at center center, #C1C9CB 0%, #231421 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #000;
-  text-stroke: 1px black;
-  //text-shadow: #C1C9CB 2px 2px 2px;
+
 }
 
+.item-works{
+  font-weight: bold;
+  font-size: 2rem;
+
+}
 svg {
   font-family: "Roboto", sans-serif;
   width: 100%; height: 100%;
@@ -128,26 +101,20 @@ svg {
 svg text {
   animation: stroke 5s infinite alternate;
   stroke-width: 2;
-  stroke: #2C2814;
-  font-size: 1rem;
+  stroke: #FFE975;
+  font-size: 1.5rem;
 }
 @keyframes stroke {
   0%   {
-    fill: rgba(191,147,85,0); stroke: rgba(44,40,20,1);
-    stroke-dashoffset: -25%; stroke-dasharray: 0 50%; stroke-width: 2;
+    fill: rgba(191,147,85,0); stroke: rgba(255,233,117,1);
+    stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
   }
-  70%  {fill: rgba(191,147,85,0); stroke: rgba(44,40,20,1); }
-  80%  {fill: rgba(191,147,85,0); stroke: rgba(44,40,20,1); stroke-width: 3; }
+  70%  {fill: rgba(191,147,85,0); stroke: rgba(255,233,117,1); }
+  80%  {fill: rgba(191,147,85,0); stroke: rgba(255,233,117,1); stroke-width: 3; }
   100% {
-    fill: rgba(191,147,85,1); stroke: rgba(44,40,20,0);
+    fill: rgba(191,147,85,1); stroke: rgba(255,233,117,0);
     stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
   }
-}
-.button-container{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 2rem;
 }
 .testbutton {
   font-family: helvetica;
@@ -166,8 +133,12 @@ svg text {
   background: #BF9355;
   background: linear-gradient(to top, #BF9355, #FFE975);
 }
-
-.hero-features{
-
+.button-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-bottom: 1rem;
 }
 </style>

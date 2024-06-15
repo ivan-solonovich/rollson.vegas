@@ -2,6 +2,7 @@
 import HeaderMobile from "~/components/mobile/HeaderMobile.vue";
 import MobileHero from "~/components/mobile/mobile-hero-section/MobileHero.vue";
 import BestPractiesMobile from "~/components/mobile/best-practies-mobile/BestPractiesMobile.vue";
+import ServicesMobileWrapper from "~/components/mobile/servises-mobile/services-mobile-wrapper.vue";
 
 const { isDesktop } = useDevice();
 const { isMobile } = useDevice();
@@ -15,6 +16,7 @@ const { isTablet } = useDevice();
     <AppHeader/>
     <HeroSection/>
     </div>
+    <ServicesWrapper/>
   <DeskstopBestPracties/>
  </div>
   <div v-if="isMobile || isTablet">
@@ -22,6 +24,7 @@ const { isTablet } = useDevice();
     <HeaderMobile/>
     <MobileHero/>
     </div>
+    <ServicesMobileWrapper/>
 <BestPractiesMobile/>
   </div>
 </div>
@@ -39,20 +42,21 @@ const { isTablet } = useDevice();
 .wrapper{
   width: 100%;
 
-  padding: 0;
+
   margin: 0;
+  padding-bottom: 1rem;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(4,2,5);
-  background: linear-gradient(135deg, rgba(4,2,5,1) 30%, rgba(255,233,117,1) 68%, rgba(249,225,114,1) 92%, rgba(191,147,85,1) 99%);
+  background-color: #000000;
+  //background: rgb(4,2,5);
+  //background: linear-gradient(135deg, rgba(4,2,5,1) 30%, rgba(255,233,117,1) 68%, rgba(249,225,114,1) 92%, rgba(191,147,85,1) 99%);
 }
 .m-wrapper{
   width: 100%;
-  background: rgb(4,2,5);
-  background: linear-gradient(135deg, rgba(4,2,5,1) 17%, rgba(255,233,117,1) 63%, rgba(249,225,114,1) 83%, rgba(191,147,85,1) 95%);
+
   overflow: hidden;
   padding: 0;
   margin: 0;

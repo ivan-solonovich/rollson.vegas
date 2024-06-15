@@ -9,26 +9,27 @@ export default {
 </script>
 
 <template>
-  <div class="hero-section ">
+  <div class="hero-section  h-screen bg-black">
 
     <div id="hero-container" class="hero-container ">
-      <div class="hero-title-wrapper">
+      <div class="hero-title-wrapper pt-1/2">
         <div class="hero-title">
-          <img class="hero-title-img m-8 p-8" src="@/assets/images/logo_without.png" alt="">
-          <h1 id="hero-slogan">BEST QUALITY IN DESIGN SOLUTIONS</h1>
-          <div class="hero-features m-8 p-8">
-            <ul class="works-list">
-                <li class="item-works">Professional Tile Installation</li>
-                <li class="item-works">Stretch Ceiling</li>
-                <li class="item-works">Bathroom and Kitchen renovations</li>
-                <li class="item-works">Painting service & Wall texture</li>
-                <li class="item-works">Door and Windows replacement</li>
-            </ul>
+<!--          <img class="hero-title-img " src="@/assets/images/logo_without.png" alt="">-->
+<!--          <h1 id="hero-slogan">BEST QUALITY IN DESIGN SOLUTIONS</h1>-->
+<!--          <img class="w-1/4 h-auto pt-4" src="@/assets/images/tiles_Images/Internal_finishes.png" alt="">-->
+<!--          <div class="hero-features m-2 p-2">-->
+<!--            <ul class="works-list">-->
+<!--                <li class="item-works">Professional Tile Installation</li>-->
+<!--                <li class="item-works">Stretch Ceiling</li>-->
+<!--                <li class="item-works">Bathroom and Kitchen renovations</li>-->
+<!--                <li class="item-works">Painting service & Wall texture</li>-->
+<!--                <li class="item-works">Door and Windows replacement</li>-->
+<!--            </ul>-->
 
-        </div>
+<!--        </div>-->
           <svg>
-            <text x="50%" y="50%" dy=".35em" text-anchor="middle">
-              PREMIUM TILES CEILINGS AND LIGHTING
+            <text x="50%" y="30%" dy=".35em" text-anchor="middle">
+              European quality standard
             </text>
           </svg>
           <div class="button-container">
@@ -39,7 +40,10 @@ export default {
     </div>
 
     </div>
-
+    <video id="main-video"  autoplay playsinline loop muted class="absolute box-border z-10 w-auto w-screen min-h-full max-w-none bg-opacity-50" poster="@/assets/video/Rollson-home-renovation-company.avif">
+      <source src="@/assets/video/RB.mp4" type="video/mp4">Your browser does not support the video tag.
+      <source src="@/assets/video/RB.webm" type="video/webm">Your browser does not support the video tag.
+    </video>
   </div>
 </template>
 
@@ -62,28 +66,13 @@ export default {
   height: 100%;
   z-index: 100;
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 2rem;
+
 }
-.hero-title-wrapper{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.hero-title{
-  width: 100%;
-  border-radius: 3rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  z-index: 100;
-  color: #ffe975;
-}
+
+
 .hero-title-img{
   width: 20%;
   height: auto;
@@ -93,24 +82,14 @@ export default {
   font-family: Roboto;
   font-weight: bolder;
   font-size: 3rem;
-  background: #FFE975;
-  background: radial-gradient(circle farthest-corner at center center, #FFE975 0%, #231421 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: white;
-  -webkit-text-stroke: 2px #000;
-  text-stroke: 2px black;
+   color: white;
+
 }
 
 .item-works{
   font-weight: bold;
   font-size: 2rem;
-  background: #C1C9CB;
-  background: radial-gradient(circle farthest-corner at center center, #C1C9CB 0%, #231421 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #000;
-  text-stroke: 1px black;
+
 }
 svg {
   font-family: "Roboto", sans-serif;
@@ -156,11 +135,7 @@ svg text {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #C1C9CB;
-  background: radial-gradient(circle farthest-corner at center center, #C1C9CB 0%, #231421 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #000;
-  text-stroke: 1px black;
+  color: white;
+  padding-bottom: 1rem;
 }
 </style>
