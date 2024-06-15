@@ -29,9 +29,9 @@ import BP_5 from "~/components/bestpracties/BP_5.vue";
 }
 
 .why{
- width: 100%;
+  width: 100%;
   font-size: 2.5rem;
-
+  font-family: Azonix;
   text-align: center;
   font-weight: bolder;
 

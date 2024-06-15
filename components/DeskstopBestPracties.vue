@@ -45,7 +45,7 @@ import BP_5 from "~/components/bestpracties/BP_5.vue";
   width: 30%;
   font-size: 3rem;
   text-align: center;
-
+  font-family: Azonix;
   font-weight: bolder;
 
   color: white;
