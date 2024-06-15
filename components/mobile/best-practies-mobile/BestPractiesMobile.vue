@@ -24,7 +24,9 @@ import BP_5 from "~/components/bestpracties/BP_5.vue";
 </template>
 
 <style scoped>
-
+.bp-wrapper{
+  background-color: black;
+}
 
 .why{
  width: 100%;
