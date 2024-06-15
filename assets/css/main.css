@@ -8,3 +8,10 @@ body{
     box-sizing: border-box;
     font-family: Montserrat;
 }
+@font-face {
+    font-family: 'Azonix';
+    src: url('/fonts/Azonix.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

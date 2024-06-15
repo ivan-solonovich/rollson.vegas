@@ -74,6 +74,7 @@
 <style scoped>
 .bathroom-title{
   font-family: Azonix;
+
   background-color: #000000;
   color: #ffffff;
 }
