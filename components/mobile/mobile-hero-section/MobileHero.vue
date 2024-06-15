@@ -11,7 +11,13 @@ export default {
   <div class="hero-section h-screen  bg-black">
 
     <div id="hero-container" class="hero-container ">
-      <div class="hero-title-wrapper pt-1/2">
+      <svg>
+        <text x="50%" y="30%" dy=".15em" text-anchor="middle">
+          European quality
+          standard
+        </text>
+      </svg>
+      <div class="hero-title-wrapper pt-1/6">
         <div class="hero-title">
           <!--          <img class="hero-title-img " src="@/assets/images/logo_without.png" alt="">-->
           <!--          <h1 id="hero-slogan">BEST QUALITY IN DESIGN SOLUTIONS</h1>-->
@@ -26,12 +32,7 @@ export default {
           <!--            </ul>-->
 
           <!--        </div>-->
-          <svg>
-            <text x="50%" y="70%" dy=".15em" text-anchor="middle">
-              European quality
-              standard
-            </text>
-          </svg>
+
 <!--          <div class="button-container">-->
 <!--            <h3 class="pb-4">Contact us today to learn more about our services and to schedule your free estimate.</h3>-->
 <!--            <button class="testbutton"><a href="+17252220550">&#9742; (725) 222-0550</a></button>-->
