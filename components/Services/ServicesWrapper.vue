@@ -83,6 +83,42 @@
       </blockquote>
     </div>
   </div>
+<!--  Section 6-->
+  <div class="bathroom-title w-100 h-auto">
+    <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
+      <h2 class="text-5xl text-center font-extrabold p-1">Rollson offers a wide range of modern flooring options</h2>
+      <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+      <blockquote class="block-title p-4 m-4 text-xl font-bold">
+        Rollson offers a wide range of modern flooring options, including tiles and laminate.
+        Their tile collection features a variety of styles, colors, and patterns to suit different design preferences.
+        Tiles are a popular choice for flooring due to their durability, easy maintenance, and versatility.
+        In addition to tiles, Rollson also offers laminate flooring. Whether you prefer the timeless elegance of tiles
+        or the practicality of laminate,
+        Rollson has a selection of modern flooring options to meet your needs.
+
+
+      </blockquote>
+    </div>
+  </div>
+  <div class="bathroom-img w-100 h-auto">
+    <img loading="lazy" src="@/assets/images/tiles_Images/house-5128521_1280.jpg" alt="">
+  </div>
+<!--  Section 7-->
+  <div class="bathroom-img w-100 h-auto">
+    <img loading="lazy" src="@/assets/images/Commercial%20Restaurant%20Tile/3f9aeddf3119fdfb0211dea9c5d95a3b.jpg" alt="">
+  </div>
+  <div class="bathroom-title w-100 h-auto">
+    <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
+      <h2 class="text-5xl text-center font-extrabold p-1">Commercial Restaurant & Office Tile</h2>
+      <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+      <blockquote class="block-title p-4 m-4 text-xl font-bold">
+        Rollson Commercial Restaurant & Office Tile: Your One-Stop Solution for Project Excellence. When it comes to commercial
+        projects in the restaurant and office industry,
+        Rollson Commercial Restaurant & Office Tile is the name you can trust. With their comprehensive range of solutions,
+        they cover every aspect of a project, from concept and prototype development to complete overhauls of existing premises.
+      </blockquote>
+    </div>
+  </div>
 </div>
 </template>
 

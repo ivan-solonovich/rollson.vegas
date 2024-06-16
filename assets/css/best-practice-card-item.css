@@ -22,7 +22,8 @@ color: white;
 }
 .best-practies-item-title{
     font-family: Azonix;
-    color: #60B88D;
+    font-weight: bolder;
+    color: #ffffff;
     -webkit-text-stroke: 2px #000;
     text-stroke: 2px black;
 }
