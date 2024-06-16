@@ -36,7 +36,7 @@
   </div>
   <!--  section-3-->
   <div class="bathroom-img w-100 h-auto">
-    <img loading="lazy" src="@/assets/images/streich-sailing/house-5128521_1280.jpg" alt="">
+    <img loading="lazy" src="@/assets/images/streich-sailing/itempiamos-lubos-sklandancios-linijos-1631x1080.jpg" alt="">
   </div>
   <div class="bathroom-title w-100 h-auto">
     <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
@@ -53,7 +53,7 @@
 <!--  Section 4-->
   <div class="bathroom-title w-100 h-auto">
     <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
-      <h2 class="text-5xl text-center font-extrabold">The Singular Provider of Venetian Plaster in Las Vegas</h2>
+      <h2 class="text-5xl text-center font-extrabold p-1">The Singular Provider of Venetian Plaster in Las Vegas</h2>
       <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
       <blockquote class="block-title p-4 m-4 text-xl font-bold">
         Venetian plaster is a popular choice for its unique and luxurious finish. In the heart of Las Vegas, a city known
@@ -67,6 +67,21 @@
   </div>
   <div class="bathroom-img w-100 h-auto">
     <img loading="lazy" src="@/assets/images/Venetian%20plaster/venetsianskaja_shtukaturka_foto_34.jpg" alt="">
+  </div>
+<!--  Section 5-->
+  <div class="bathroom-img w-100 h-auto">
+    <img loading="lazy" src="@/assets/images/wall-decor-plast/mikrocement_16.jpg" alt="">
+  </div>
+  <div class="bathroom-title w-100 h-auto">
+    <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
+      <h2 class="text-5xl text-center font-extrabold p-1">A Unique Type of Decorative Plaster</h2>
+      <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+      <blockquote class="block-title p-4 m-4 text-xl font-bold">
+        Microcement is a versatile and innovative material that has gained popularity in the world of interior design
+        and architecture. Developed by Rollson, a leading manufacturer in the industry, microcement offers a wide range
+        of possibilities for creating stunning and durable surfaces.
+      </blockquote>
+    </div>
   </div>
 </div>
 </template>
