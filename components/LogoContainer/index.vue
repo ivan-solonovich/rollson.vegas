@@ -37,7 +37,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  font-family: Azonix;
 }
 nav{
   padding-top: 2rem;

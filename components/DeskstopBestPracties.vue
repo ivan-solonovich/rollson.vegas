@@ -20,10 +20,16 @@ import BP_5 from "~/components/bestpracties/BP_5.vue";
       <BP_4/>
       <BP_5/>
     </div>
+    <div class="button-container">
+      <h2 class="pb-4">Contact us today to learn more about our services and to schedule your free estimate.</h2>
+      <button class="testbutton"><a href="+17252220550">&#9742; (725) 222-0550</a></button>
+    </div>
   </div>
 </template>
 
 <style scoped>
+@import "@/assets/css/main.css";
+@import "@/assets/css/button-gold.css";
 .bp-wrapper{
   //background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
   //background: rgb(4,2,5);

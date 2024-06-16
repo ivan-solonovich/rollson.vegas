@@ -48,7 +48,7 @@ export default {
 </template>
 
 <style scoped>
-
+@import "@/assets/css/main.css";
 .hero-section{
   width: 100%;
   position: relative;
@@ -114,7 +114,7 @@ svg text {
   }
 }
 .testbutton {
-  font-family: helvetica;
+  font-family: Azonix;
   color: #3D381C !important;
   font-size: 14px;
   text-shadow: 1px 1px 0px #FFE975;
@@ -131,6 +131,7 @@ svg text {
   background: linear-gradient(to top, #BF9355, #FFE975);
 }
 .button-container{
+  font-family: Azonix;
   display: flex;
   flex-direction: column;
   justify-content: center;

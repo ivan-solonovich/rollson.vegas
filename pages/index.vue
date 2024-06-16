@@ -3,6 +3,7 @@ import HeaderMobile from "~/components/mobile/HeaderMobile.vue";
 import MobileHero from "~/components/mobile/mobile-hero-section/MobileHero.vue";
 import BestPractiesMobile from "~/components/mobile/best-practies-mobile/BestPractiesMobile.vue";
 import ServicesMobileWrapper from "~/components/mobile/servises-mobile/services-mobile-wrapper.vue";
+import Footer from "~/components/footer/Footer.vue";
 
 const { isDesktop } = useDevice();
 const { isMobile } = useDevice();
@@ -18,6 +19,7 @@ const { isTablet } = useDevice();
     </div>
     <ServicesWrapper/>
   <DeskstopBestPracties/>
+    <Footer/>
  </div>
   <div v-if="isMobile || isTablet">
     <div  class="m-wrapper">
@@ -33,11 +35,12 @@ const { isTablet } = useDevice();
 <style>
 .main{
   width: 100%;
-
   overflow: hidden;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: #000000;
+
 }
 .wrapper{
   width: 100%;
