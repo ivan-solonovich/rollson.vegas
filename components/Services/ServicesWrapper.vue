@@ -72,6 +72,7 @@
 </template>
 
 <style scoped>
+@import "@/assets/css/main.css";
 .bathroom-title{
   font-family: Azonix;
 
