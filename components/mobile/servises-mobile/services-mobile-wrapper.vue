@@ -102,7 +102,7 @@
     </div>
     <!--    Secton 7-->
     <div class="bathroom-img w-100 h-auto">
-      <img loading="lazy" src="@/assets/images/Commercial%20Restaurant%20Tile/3f9aeddf3119fdfb0211dea9c5d95a3b.jpg" alt="">
+      <img loading="lazy" src="@/assets/images/Commercial%20Restaurant%20Tile/brick-wall-1834784_1280.jpg" alt="">
     </div>
     <div class="bathroom-title w-100 h-auto pt-4">
       <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
