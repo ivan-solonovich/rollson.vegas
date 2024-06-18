@@ -28,6 +28,7 @@ const { isTablet } = useDevice();
     </div>
     <ServicesMobileWrapper/>
 <BestPractiesMobile/>
+    <FooterMobile/>
   </div>
 </div>
 </template>

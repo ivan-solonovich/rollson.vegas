@@ -19,9 +19,22 @@
             <div class="f-company">
               <div class="f-column">
                 <img class="f-img-logo" src="@/assets/images/logo_without.png" alt="">
+                <p style="color: white">ROLLSON INC</p>
+                <p style="color: white">225 E CT OF SHOREWOOD #7</p>
+                <p style="color: white">VERNON HILLS IL 60061</p>
               </div>
             </div>
-            <div></div>
+            <div class="f-column">
+              <h3 style="color: #ffe975">Our official social-media </h3>
+            <div class="f-social-medi-button">
+              <a href="https://www.facebook.com/profile.php?id=61558010404090">
+                <img class="f-social-button" src="@/assets/images/social-media-icons/facebook.png" alt="">
+              </a>
+              <a href="https://www.instagram.com/rollson.vegas/">
+                <img class="f-social-button" src="@/assets/images/social-media-icons/instagramm.png" alt="">
+              </a>
+            </div>
+            </div>
           </div>
   </div>
 </template>
@@ -50,5 +63,16 @@
 }
 .f-img-logo{
   max-width: 120px;
+}
+.f-social-medi-button{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f-social-button{
+  max-width: 100px;
+  height: auto;
 }
 </style>
