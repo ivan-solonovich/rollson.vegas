@@ -44,9 +44,9 @@ export default {
         <button class="testbutton"><a href="+17252220550">&#9742; (725) 222-0550</a></button>
       </div>
     </div>
-    <video id="main-video"  autoplay playsinline loop muted class="absolute box-border z-10 w-auto w-screen min-h-full max-w-none bg-opacity-50" poster="@/assets/video/Rollson-home-renovation-company.avif">
-      <source src="@/assets/video/Rollson-home-renovation-company-european.mp4" type="video/mp4">Your browser does not support the video tag.
-      <source src="@/assets/video/Rollson-home-renovation-company-european.webm" type="video/webm">Your browser does not support the video tag.
+    <video id="main-video"  autoplay playsinline loop muted class="absolute box-border z-10 w-auto w-screen min-h-full max-w-none bg-opacity-50" poster="@/assets/video/Rollson-mobile-european.avif">
+      <source src="@/assets/video/Rollson-mobile-european.mp4" type="video/mp4">Your browser does not support the video tag.
+      <source src="@/assets/video/Rollson-mobile-european.webm" type="video/webm">Your browser does not support the video tag.
     </video>
   </div>
 
@@ -55,7 +55,7 @@ export default {
 <style scoped>
 .hero-section{
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   position: relative;
   display: flex;
   justify-items: center;
