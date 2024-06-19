@@ -10,8 +10,8 @@
   </div>
     <div class="logo-container-menu ">
 
-        <h6 class="menu-item">Home</h6>
-        <h6 class="menu-item">About</h6>
+        <h6 class="menu-item"><NuxtLink to="/">Home</NuxtLink></h6>
+        <h6 class="menu-item"><NuxtLink to="/about">About</NuxtLink></h6>
         <h6 class="menu-item">Gallery</h6>
         <h6 class="menu-item">Services</h6>
         <h6 class="menu-item">Contact</h6>

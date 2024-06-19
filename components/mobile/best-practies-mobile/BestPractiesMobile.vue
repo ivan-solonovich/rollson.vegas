@@ -10,7 +10,9 @@ import BP_5 from "~/components/bestpracties/BP_5.vue";
 <template>
   <div class="bp-wrapper text-center w-100 flex flex-col justify-center align-baseline">
     <div class="w-200 text-center flex justify-center">
-      <h1 class="why text-center">Why Choose Us<span style="color: #60B88D">&nbsp;?</span></h1>
+      <hr class="w-2/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+      <h1 class="services-title text-white p-8 text-7xl text-center">Why Choose Us ?</h1>
+      <hr class="w-2/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
     </div>
     <div class=" container flex flex-col flex-grow">
       <BestpractiesBestPractiesItem/>

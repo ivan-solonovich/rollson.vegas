@@ -71,7 +71,8 @@
 
 }
 .f-img-logo{
-  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   width: 100%;
 }
 .f-social-medi-button{

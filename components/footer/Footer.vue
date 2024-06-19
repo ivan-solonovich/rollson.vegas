@@ -8,8 +8,8 @@
           <div class="footer grid grid-cols-3 gap-8">
             <div class="f-column">
               <div class="f-item-wrapper">
-                <h3 class="f-item">Home</h3>
-                <h3 class="f-item">About</h3>
+                <h3  class="f-item"><NuxtLink to="/">Home</NuxtLink></h3>
+                <h3  class="f-item"><NuxtLink to="/about">About</NuxtLink></h3>
                 <h3 class="f-item">Gallery</h3>
                 <h3 class="f-item">Services</h3>
                 <h3 class="f-item">Contact</h3>
