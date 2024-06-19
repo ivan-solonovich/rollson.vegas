@@ -27,11 +27,11 @@ export default {
 <!--            </ul>-->
 
 <!--        </div>-->
-          <svg>
-            <text x="50%" y="30%" dy=".35em" text-anchor="middle">
-              European quality standard
-            </text>
-          </svg>
+<!--          <svg>-->
+<!--            <text x="50%" y="30%" dy=".35em" text-anchor="middle">-->
+<!--              European quality standard-->
+<!--            </text>-->
+<!--          </svg>-->
           <div class="button-container">
             <h3 class="pb-4">Contact us today to learn more about our services and to schedule your free estimate.</h3>
             <button class="testbutton"><a href="+17252220550">&#9742; (725) 222-0550</a></button>
@@ -41,8 +41,8 @@ export default {
 
     </div>
     <video id="main-video"  autoplay playsinline loop muted class="absolute box-border z-10 w-auto w-screen min-h-full max-w-none bg-opacity-50" poster="@/assets/video/Rollson-home-renovation-company.avif">
-      <source src="@/assets/video/RB.mp4" type="video/mp4">Your browser does not support the video tag.
-      <source src="@/assets/video/RB.webm" type="video/webm">Your browser does not support the video tag.
+      <source src="@/assets/video/Rollson-home-renovation-company-european.mp4" type="video/mp4">Your browser does not support the video tag.
+      <source src="@/assets/video/Rollson-home-renovation-company-european.webm" type="video/webm">Your browser does not support the video tag.
     </video>
   </div>
 </template>
