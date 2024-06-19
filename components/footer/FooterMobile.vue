@@ -9,6 +9,7 @@
     <div class="footer flex flex-col align-middle">
       <div class="f-column pb-0">
         <h3 style="color: #ffe975">Our official social-media </h3>
+        <h4 style="color: #ffe975">Learn more about our work.</h4>
         <div class="f-social-medi-button">
           <a href="https://www.facebook.com/profile.php?id=61558010404090">
             <img class="f-social-button" src="@/assets/images/social-media-icons/facebook.png" alt="">
@@ -19,7 +20,7 @@
         </div>
       </div>
       <div class="f-column pb-8">
-      <img class="f-img-logo" src="@/assets/images/logo_without.png" alt="">
+      <img class="f-img-logo" src="@/assets/images/footer/ROLLSON_bussines_card_1.avif" alt="">
         <p style="color: white">ROLLSON INC</p>
         <p style="color: white">225 E CT OF SHOREWOOD #7</p>
         <p style="color: white">VERNON HILLS IL 60061</p>
@@ -41,6 +42,9 @@
 
     </div>
   </div>
+  <hr class="w-7/8 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+  <div class="w-100 text-white flex justify-center">ROLLSON INC &copy. All right reserved.</div>
+  <div class="w-100 text-white flex justify-center">Design and Development IT-Ivan.</div>
 </template>
 
 <style scoped>
@@ -50,6 +54,7 @@
   display: flex;
   flex-direction: column;
   font-family: Azonix;
+  padding: 1rem;
 }
 
 .f-column{
@@ -66,7 +71,8 @@
 
 }
 .f-img-logo{
-  max-width: 120px;
+  padding: 1rem;
+  width: 100%;
 }
 .f-social-medi-button{
   width: 100%;

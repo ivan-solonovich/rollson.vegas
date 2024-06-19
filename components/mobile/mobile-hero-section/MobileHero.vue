@@ -11,12 +11,12 @@ export default {
   <div class="hero-section h-screen  bg-black">
 
     <div id="hero-container" class="hero-container ">
-      <svg>
-        <text x="50%" y="30%" dy=".15em" text-anchor="middle">
-          European quality
-          standard
-        </text>
-      </svg>
+<!--      <svg>-->
+<!--        <text x="50%" y="30%" dy=".15em" text-anchor="middle">-->
+<!--          European quality-->
+<!--          standard-->
+<!--        </text>-->
+<!--      </svg>-->
       <div class="hero-title-wrapper pt-1/6">
         <div class="hero-title">
           <!--          <img class="hero-title-img " src="@/assets/images/logo_without.png" alt="">-->
@@ -45,8 +45,8 @@ export default {
       </div>
     </div>
     <video id="main-video"  autoplay playsinline loop muted class="absolute box-border z-10 w-auto w-screen min-h-full max-w-none bg-opacity-50" poster="@/assets/video/Rollson-home-renovation-company.avif">
-      <source src="@/assets/video/RB.mp4" type="video/mp4">Your browser does not support the video tag.
-      <source src="@/assets/video/RB.webm" type="video/webm">Your browser does not support the video tag.
+      <source src="@/assets/video/Rollson-home-renovation-company-european.mp4" type="video/mp4">Your browser does not support the video tag.
+      <source src="@/assets/video/Rollson-home-renovation-company-european.webm" type="video/webm">Your browser does not support the video tag.
     </video>
   </div>
 
