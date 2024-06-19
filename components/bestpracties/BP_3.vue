@@ -5,7 +5,7 @@
 <template>
   <div class="bpi-items bg-gradient-to-r  h-100 flex flex-col justify-center items-center">
     <div class="card-best-practies rounded-lg shadow-lg p-8">
-      <h1 class="text-4xl font-bold text-white mb-4 best-practies-item-title">
+      <h1 class="text-3xl font-bold text-white mb-4 best-practies-item-title">
         Highly-skilled craftspeople
       </h1>
       <p class="feauters text-lg text-black ">

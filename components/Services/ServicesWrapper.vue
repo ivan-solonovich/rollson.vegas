@@ -3,7 +3,13 @@
 </script>
 
 <template>
+  <div class="w-100 h-100 flex flex-col justify-center align-middle">
+    <hr class="w-2/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+    <h1 class="services-title text-white p-8 text-7xl text-center">Our services</h1>
+    <hr class="w-2/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+  </div>
 <div class="w-100 grid grid-cols-2">
+
 <!--  section-1-->
   <div class="bathroom-img w-100 h-auto">
     <img loading="lazy" src="@/assets/images/batroom-renovation/woman-3170568_1280.jpg" alt="">
@@ -151,6 +157,12 @@
 <style scoped>
 @import "@/assets/css/main.css";
 @import "@/assets/css/button-gold.css";
+.services-title{
+
+  font-family: Azonix;
+  font-weight: bolder;
+  color: white;
+}
 .bathroom-title{
   font-family: Azonix;
 

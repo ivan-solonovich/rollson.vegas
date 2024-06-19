@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <div class="hero-section h-screen  bg-black">
+  <div class="hero-section   bg-black">
 
     <div id="hero-container" class="hero-container ">
 <!--      <svg>-->
@@ -40,7 +40,7 @@ export default {
         </div>
       </div>
       <div class="button-container">
-<!--        <h6 class="pb-4 text-center">Contact us today to learn more about our services and to schedule your free estimate.</h6>-->
+        <h6 class="pb-4 text-center">Contact us today to learn more about our services and to schedule your free estimate.</h6>
         <button class="testbutton"><a href="+17252220550">&#9742; (725) 222-0550</a></button>
       </div>
     </div>
@@ -55,6 +55,7 @@ export default {
 <style scoped>
 .hero-section{
   width: 100%;
+  height: 80vh;
   position: relative;
   display: flex;
   justify-items: center;
@@ -118,7 +119,7 @@ svg text {
   }
 }
 .testbutton {
-  font-family: helvetica;
+  font-family: Azonix;
   color: #3D381C !important;
   font-size: 14px;
   text-shadow: 1px 1px 0px #FFE975;
@@ -140,6 +141,7 @@ svg text {
   justify-content: center;
   align-items: center;
   color: white;
-  padding-bottom: 1rem;
+  padding: 2rem;
+  font-family: Azonix;
 }
 </style>
