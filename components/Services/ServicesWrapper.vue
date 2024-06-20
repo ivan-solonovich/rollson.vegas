@@ -24,7 +24,7 @@
       </blockquote>
       <div class="button-container">
         <h6 class="p-4">Learn more about Bathroom Renovation and to schedule your free estimate.</h6>
-        <button class="testbutton"><a href="">Learn more</a></button>
+        <button class="testbutton"><NuxtLink to="/bathrenovation"><a href="">Learn more</a></NuxtLink></button>
       </div>
     </div>
 

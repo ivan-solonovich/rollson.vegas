@@ -4,7 +4,7 @@
 
 <template>
   <div class="button-container">
-    <h6 class="p-4">Learn more about Modern Flooring and to schedule your free estimate.</h6>
+    <h6 class="p-4">Learn more about Rollson Services and to schedule your free estimate.</h6>
     <button class="testbutton"><a href="">Learn more</a></button>
   </div>
 </template>
