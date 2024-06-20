@@ -21,6 +21,10 @@
           Looking to give your bathroom a fresh new look? Are you dreaming of a bathroom that's both functional and stunning?  Look no further! At Rollson, we specialize in professional bathroom renovation and remodeling that will elevate the style and functionality of your space.
           Look no further! Rollson is here to turn your bathroom renovation dreams into reality!
         </blockquote>
+        <div class="button-container">
+          <h6 class="p-4">Learn more about Bathroom Renovation and to schedule your free estimate.</h6>
+          <button class="testbutton"><NuxtLink to="/bathrenovation"><a href="">Learn more</a></NuxtLink></button>
+        </div>
       </div>
     </div>
     <!--  Section-2-->
@@ -126,6 +130,7 @@
 
 <style scoped>
 @import "@/assets/css/main.css";
+@import "@/assets/css/button-gold.css";
 .services-title{
 
   font-family: Azonix;

@@ -21,7 +21,7 @@
       <div class="flex flex-col w-full h-auto py-10 px-2 justify-center  items-center bg-black rounded text-center text-white">
         <h3 class="menu-item text-3xl"><NuxtLink to="/">Home</NuxtLink></h3>
         <h3 class="menu-item text-3xl"><NuxtLink to="/about">About</NuxtLink></h3>
-        <h3 class="f-item">Gallery</h3>
+        <h3 class="menu-item text-3xl"><NuxtLink to="/bathrenovation">Bathroom Renovation</NuxtLink></h3>
         <h3 class="f-item">Services</h3>
         <h3 class="f-item">Contact</h3>
         <h3 class="f-item">Blog</h3>

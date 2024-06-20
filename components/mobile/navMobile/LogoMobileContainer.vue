@@ -5,7 +5,9 @@
 <template>
   <nav>
   <div class="logo-container">
-    <img class="logo" src="@/assets/images/logo_without.png" alt="Rollson_logo"/>
+    <NuxtLink to="/">
+      <img class="logo" src="@/assets/images/logo_without.png" alt="Rollson_logo"/>
+    </NuxtLink>
   </div>
 
   </nav>

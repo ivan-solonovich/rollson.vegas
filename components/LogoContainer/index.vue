@@ -6,7 +6,9 @@
 <div class="logo-container ">
   <nav>
     <div class="logo-container-main">
- <img class="logo" src="../../assets/images/logo_without.png"/>
+      <NuxtLink to="/">
+        <img class="logo" src="../../assets/images/logo_without.png"/>
+      </NuxtLink>
   </div>
     <div class="logo-container-menu ">
 
