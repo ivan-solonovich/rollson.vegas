@@ -46,7 +46,7 @@
 
     <!--  section-3-->
     <div class="bathroom-img w-100 h-auto">
-      <img loading="lazy" src="@/assets/images/streich-sailing/itempiamos-lubos-sklandancios-linijos-1631x1080.jpg" alt="">
+      <img loading="lazy" src="@/assets/images/streich-sailing/str-seil.avif" alt="">
     </div>
     <div class="bathroom-title w-100 h-auto pt-4">
       <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
