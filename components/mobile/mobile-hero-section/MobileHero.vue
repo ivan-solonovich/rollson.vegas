@@ -41,7 +41,7 @@ export default {
       </div>
       <div class="button-container">
         <h6 class="pb-4 text-center">Contact us today to learn more about our services and to schedule your free estimate.</h6>
-        <button class="testbutton"><a href="+17252220550">&#9742; (725) 222-0550</a></button>
+        <button class="testbutton"><a href="tel:+17252220550">&#9742; (725) 222-0550</a></button>
       </div>
     </div>
     <video id="main-video"  autoplay playsinline loop muted class="absolute box-border z-10 w-auto w-screen min-h-full max-w-none bg-opacity-50" poster="@/assets/video/Rollson-mobile-european.avif">

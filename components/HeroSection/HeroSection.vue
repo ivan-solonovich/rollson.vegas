@@ -32,10 +32,7 @@ export default {
 <!--              European quality standard-->
 <!--            </text>-->
 <!--          </svg>-->
-          <div class="button-container">
-            <h3 class="pb-4">Contact us today to learn more about our services and to schedule your free estimate.</h3>
-            <button class="testbutton"><a href="+17252220550">&#9742; (725) 222-0550</a></button>
-          </div>
+
         </div>
     </div>
 
@@ -44,6 +41,10 @@ export default {
       <source src="@/assets/video/Rollson-home-renovation-company-european.mp4" type="video/mp4">Your browser does not support the video tag.
       <source src="@/assets/video/Rollson-home-renovation-company-european.webm" type="video/webm">Your browser does not support the video tag.
     </video>
+  </div>
+  <div class="button-container">
+    <h3 class="pb-4 pt-4">Contact us today to learn more about our services and to schedule your free estimate.</h3>
+    <button class="testbutton"><a href="tel:+17252220550"> &#9742; (725) 222-0550</a></button>
   </div>
 </template>
 
