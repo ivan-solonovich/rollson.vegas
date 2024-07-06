@@ -122,6 +122,8 @@ const { isTablet } = useDevice();
 </template>
 
 <style>
+@import "@/assets/css/main.css";
+@import "@/assets/css/button-gold.css";
 .main{
   width: 100%;
   overflow: hidden;

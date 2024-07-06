@@ -44,9 +44,25 @@
       </div>
     </div>
 
+
+<!--    Secton 5-->
+    <div class="bathroom-img w-100 h-auto">
+      <img loading="lazy" src="@/assets/images/wall-decor-plast/mikrocement_16.jpg" alt="">
+    </div>
+    <div class="bathroom-title w-100 h-auto pt-4">
+      <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
+        <h2 class="text-center text-3xl font-extrabold">A Unique Type of Decorative Plaster</h2>
+        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+        <blockquote class="block-title p-4 m-4 text-xl font-bold">
+          Microcement is a versatile and innovative material that has gained popularity in the world of interior design
+          and architecture. Developed by Rollson, a leading manufacturer in the industry, microcement offers a wide range
+          of possibilities for creating stunning and durable surfaces.
+        </blockquote>
+      </div>
+    </div>
     <!--  section-3-->
     <div class="bathroom-img w-100 h-auto">
-      <img loading="lazy" src="@/assets/images/streich-sailing/str-seil.avif" alt="">
+      <img loading="lazy" src="@/assets/images/streich-sailing/ST_1_1).avif" alt="">
     </div>
     <div class="bathroom-title w-100 h-auto pt-4">
       <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
@@ -60,7 +76,7 @@
         </blockquote>
       </div>
     </div>
-<!--    Section 4-->
+    <!--    Section 4-->
     <div class="bathroom-img w-100 h-auto">
       <img loading="lazy" src="@/assets/images/Venetian%20plaster/venetsianskaja_shtukaturka_foto_34.jpg" alt="">
     </div>
@@ -73,21 +89,6 @@
           for its architectural grandeur and design innovation, stands Rollson, a company that has carved a unique niche for itself.
           Rollson is the only provider of Venetian Plaster in Las Vegas, offering a distinctive service in the city's
           bustling construction and design industry.
-        </blockquote>
-      </div>
-    </div>
-<!--    Secton 5-->
-    <div class="bathroom-img w-100 h-auto">
-      <img loading="lazy" src="@/assets/images/wall-decor-plast/mikrocement_16.jpg" alt="">
-    </div>
-    <div class="bathroom-title w-100 h-auto pt-4">
-      <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
-        <h2 class="text-center text-3xl font-extrabold">A Unique Type of Decorative Plaster</h2>
-        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
-        <blockquote class="block-title p-4 m-4 text-xl font-bold">
-          Microcement is a versatile and innovative material that has gained popularity in the world of interior design
-          and architecture. Developed by Rollson, a leading manufacturer in the industry, microcement offers a wide range
-          of possibilities for creating stunning and durable surfaces.
         </blockquote>
       </div>
     </div>
