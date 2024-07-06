@@ -25,7 +25,11 @@
       </blockquote>
       <div class="button-container">
         <h6 class="p-4">Learn more about Stretch Ceiling and to schedule your free estimate.</h6>
-        <button class="testbutton"><a href="">Learn more</a></button>
+        <button class="testbutton">
+          <h6 class="menu-item"><NuxtLink to="/stretchceiling">
+          <a href="">Learn more</a>
+          </NuxtLink></h6>
+        </button>
       </div>
     </div>
   </div>
