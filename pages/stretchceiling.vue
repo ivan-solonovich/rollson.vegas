@@ -21,7 +21,7 @@ const { isTablet } = useDevice();
           <h1 class="services-title text-white p-8 text-7xl text-center">Stretch Ceiling</h1>
           <hr class="w-2/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
         </div>
-        <div class="about-wrapper grid grid-cols-2 gap-8">
+        <div class="about-wrapper grid grid-cols-1 gap-8">
           <div class="about-article text-white flex flex-col p-8 m-8">
             <h1 class="title-article-about text-5xl text-center">Introducing Stretch Ceiling by Rollson</h1>
             <p>
@@ -58,6 +58,9 @@ const { isTablet } = useDevice();
               provide a flawless and elegant appearance. They can be installed with integrated lighting systems,
               creating a soft and ambient atmosphere that adds to the overall charm of the room.
             </p>
+            <div class="bathroom-img w-100 h-auto pt-4">
+              <img loading="lazy" src="@/assets/images/streich-sailing/ST-15.avif" alt="">
+            </div>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
             <h2 class="text-4xl text-center font-bold"> Acoustic Benefits:</h2>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
@@ -118,8 +121,8 @@ const { isTablet } = useDevice();
             </p>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
           </div>
-          <div class="about-article text-white flex flex-col p-8 m-8">
-            <div style="position:relative; width:100%; height:0px; padding-bottom:100.000%"><iframe allow="fullscreen" allowfullscreen height="100%" src="https://streamable.com/e/yktw5c?loop=0" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe></div>
+          <div class="about-article text-white flex flex-col text-center justify-center p-8 m-8">
+            <iframe allow="fullscreen" allowfullscreen height="720" src="https://streamable.com/e/yktw5c?loop=0" width="720" style="border:none;"></iframe>
           </div>
         </div>
       </div>
@@ -175,6 +178,9 @@ const { isTablet } = useDevice();
             provide a flawless and elegant appearance. They can be installed with integrated lighting systems,
             creating a soft and ambient atmosphere that adds to the overall charm of the room.
           </p>
+          <div class="bathroom-img w-100 h-auto pt-4">
+            <img loading="lazy" src="@/assets/images/streich-sailing/ST-15.avif" alt="">
+          </div>
           <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
           <h2 class="text-4xl text-center font-bold"> Acoustic Benefits:</h2>
           <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
@@ -275,6 +281,13 @@ const { isTablet } = useDevice();
 
 .works{
   color: #ffe975;
+}
+.about-article{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .title-article-about{
   font-family: Azonix;
