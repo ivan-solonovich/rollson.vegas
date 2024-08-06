@@ -11,7 +11,7 @@
   </div>
     <!--  section-3-->
     <div class="bathroom-img w-100 h-auto">
-      <img loading="lazy" src="@/assets/images/streich-sailing/ST_1_1).avif" alt="">
+      <img loading="lazy" src="@/assets/images/streich-sailing/str-seil.avif" alt="">
     </div>
     <div class="bathroom-title w-100 h-auto pt-4">
       <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
@@ -33,6 +33,50 @@
         </div>
       </div>
 
+    </div>
+    <!--  section-3-->
+    <div class="bathroom-img w-100 h-auto">
+      <img loading="lazy" src="@/assets/images/streich-sailing/ST_1_1).avif" alt="">
+    </div>
+    <div class="bathroom-title w-100 h-auto">
+      <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
+        <h2 class="text-5xl text-center  font-extrabold pt-4">Stretch Ceilings + LED Lighting</h2>
+        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+        <blockquote class="block-title p-4 m-4 text-xl font-bold">
+          At Rollson, we understand the transformative power of light in creating breathtaking environments. Our backlit
+          ceilings combine cutting-edge LED technology with premium translucent stretch diffusers to illuminate your space like never before.
+        </blockquote>
+        <div class="button-container">
+          <h6 class="p-4">Learn more about Stretch Ceiling and to schedule your free estimate.</h6>
+          <button class="testbutton">
+            <h6 class="menu-item"><NuxtLink to="/stliting">
+              <a href="">Learn more</a>
+            </NuxtLink></h6>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="bathroom-img w-100 h-auto">
+      <img loading="lazy" src="@/assets/images/streich-sailing/HL-1.avif" alt="">
+    </div>
+    <div class="bathroom-title w-100 h-auto">
+      <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
+        <h2 class="text-5xl text-center  font-extrabold pt-4">Hovering lines</h2>
+        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+        <blockquote class="block-title p-4 m-4 text-xl font-bold">
+          Floating lines for stretch ceilings are a special arrangement of LED strips or lamps in a stretch ceiling,
+          which give the feeling that your ceiling is suspended in the air. Lighting a stretch ceiling in this way allows
+          you to solve many design problems, increase the space in the room, and also give the room an individual character.
+        </blockquote>
+        <div class="button-container">
+          <h6 class="p-4">Learn more about Stretch Ceiling and to schedule your free estimate.</h6>
+          <button class="testbutton">
+            <h6 class="menu-item"><NuxtLink to="/hoveringlines">
+              <a href="">Learn more</a>
+            </NuxtLink></h6>
+          </button>
+        </div>
+      </div>
     </div>
     <!--    Section 4-->
     <div class="bathroom-img w-100 h-auto">
