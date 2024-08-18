@@ -14,7 +14,7 @@
 
         <h6 class="menu-item"><NuxtLink to="/">Home</NuxtLink></h6>
         <h6 class="menu-item"><NuxtLink to="/about">About</NuxtLink></h6>
-        <h6 class="menu-item">Gallery</h6>
+        <h6 class="menu-item"><NuxtLink to="/gallery">Gallery</NuxtLink></h6>
         <h6 class="menu-item">Services</h6>
         <h6 class="menu-item">Contact</h6>
          <h6 class="menu-item">Blog</h6>
