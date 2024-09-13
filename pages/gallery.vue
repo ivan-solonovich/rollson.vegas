@@ -88,55 +88,55 @@ const { isTablet } = useDevice();
         </div>
 
         <div class="about-wrapper grid grid-cols-1 align-middle gap-8">
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/HL-1.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/1401gal_bezramn_02.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/1401gal_bezramn_04.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/1401gal_bezramn_05.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/1401gal_bezramn_06.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/1401gal_bezramn_07.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/img_8582_2_1.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/1401gal_bezramn_09.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/img_8585_2-1.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/kottedzh1.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/photo_2020-06-08_11-56-41_2.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/volodinbz1a9333-hdr.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/volodinbz1a9357-hdr.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/volodinbz1a9502-hdr.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded " src="@/assets/images/gallery/jurn1388.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/volodinbz1a9564-hdr.avif" alt="">
           </div>
-          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/volodinbz1a9570-hdr.avif" alt="">
           </div>
         </div>
