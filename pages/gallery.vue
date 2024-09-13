@@ -72,6 +72,57 @@ const { isTablet } = useDevice();
           <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/volodinbz1a9570-hdr.avif" alt="">
           </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/v1.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/m1.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/m2.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/m3.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o1.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o2.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o3.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o4.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o5.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o6.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o7.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o8.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o9.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o11.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o12.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o13.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle p-8 m-8">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o14.avif" alt="">
+          </div>
         </div>
       </div>
       <CallButton/>
@@ -138,6 +189,57 @@ const { isTablet } = useDevice();
           </div>
           <div class="w-100 h-auto flex flex-col justify-center align-middle ">
             <img loading="lazy" class="rounded" src="@/assets/images/gallery/volodinbz1a9570-hdr.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/v1.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/m1.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/m2.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/m3.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o1.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o2.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o3.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o4.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o5.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o6.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o7.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o8.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o9.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o11.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o12.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o13.avif" alt="">
+          </div>
+          <div class="w-100 h-auto flex flex-col justify-center align-middle ">
+            <img loading="lazy" class="rounded" src="@/assets/images/gallery/o14.avif" alt="">
           </div>
         </div>
       </div>
