@@ -78,7 +78,7 @@
         </div>
       </div>
     </div>
-    <!--    Section 4-->
+    <!--
     <div class="bathroom-img w-100 h-auto">
       <img loading="lazy" src="@/assets/images/Venetian%20plaster/venetsianskaja_shtukaturka_foto_34.jpg" alt="">
     </div>
@@ -94,7 +94,7 @@
         </blockquote>
       </div>
     </div>
-    <!--  section-1-->
+
     <div class="bathroom-img w-100 h-auto">
       <img loading="lazy" src="@/assets/images/batroom-renovation/woman-3170568_1280.jpg" alt="">
     </div>
@@ -112,7 +112,7 @@
         </div>
       </div>
     </div>
-    <!--  Section-2-->
+
 
     <div class="bathroom-img w-100 h-auto">
       <img loading="lazy" src="@/assets/images/tiles_Images/leaf-4470075_1280.jpg" alt="">
@@ -130,7 +130,6 @@
     </div>
 
 
-<!--    Secton 5-->
     <div class="bathroom-img w-100 h-auto">
       <img loading="lazy" src="@/assets/images/wall-decor-plast/mikrocement_16.jpg" alt="">
     </div>
@@ -146,7 +145,6 @@
       </div>
     </div>
 
-    <!--    Secton 6-->
     <div class="bathroom-img w-100 h-auto">
       <img loading="lazy" src="@/assets/images/tiles_Images/house-5128521_1280.jpg" alt="">
     </div>
@@ -164,7 +162,7 @@
         </blockquote>
       </div>
     </div>
-    <!--    Secton 7-->
+
     <div class="bathroom-img w-100 h-auto">
       <img loading="lazy" src="@/assets/images/Commercial%20Restaurant%20Tile/brick-wall-1834784_1280.jpg" alt="">
     </div>
@@ -180,6 +178,7 @@
         </blockquote>
       </div>
     </div>
+    -->
   </div>
 </template>
 

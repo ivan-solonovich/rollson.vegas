@@ -82,7 +82,8 @@
       </div>
     </div>
   </div>
-  <!--  Section 4-->
+<!--
+
   <div class="bathroom-title w-100 h-auto">
     <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
       <h2 class="text-5xl text-center font-extrabold p-1">The Singular Provider of Venetian Plaster in Las Vegas</h2>
@@ -102,7 +103,7 @@
   <div class="bathroom-img w-100 h-auto">
     <img loading="lazy" src="@/assets/images/Venetian%20plaster/venetsianskaja_shtukaturka_foto_34.jpg" alt="">
   </div>
-<!--  section-1-->
+
   <div class="bathroom-img w-100 h-auto">
     <img loading="lazy" src="@/assets/images/batroom-renovation/woman-3170568_1280.jpg" alt="">
   </div>
@@ -121,7 +122,7 @@
     </div>
 
   </div>
-<!--  Section-2-->
+
 
   <div class="bathroom-title w-100 h-auto">
     <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
@@ -143,7 +144,7 @@
     <img loading="lazy" src="@/assets/images/tiles_Images/leaf-4470075_1280.jpg" alt="">
   </div>
 
-<!--  Section 5-->
+
   <div class="bathroom-img w-100 h-auto">
     <img loading="lazy" src="@/assets/images/wall-decor-plast/mikrocement_16.jpg" alt="">
   </div>
@@ -162,7 +163,7 @@
       </div>
     </div>
   </div>
-<!--  Section 6-->
+
   <div class="bathroom-title w-100 h-auto">
     <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
       <h2 class="text-5xl text-center font-extrabold p-1">Rollson offers a wide range of modern flooring options</h2>
@@ -184,7 +185,7 @@
   <div class="bathroom-img w-100 h-auto">
     <img loading="lazy" src="@/assets/images/tiles_Images/house-5128521_1280.jpg" alt="">
   </div>
-<!--  Section 7-->
+
   <div class="bathroom-img w-100 h-auto">
     <img loading="lazy" src="@/assets/images/Commercial%20Restaurant%20Tile/brick-wall-1834784_1280.jpg" alt="">
   </div>
@@ -204,6 +205,7 @@
       </div>
     </div>
   </div>
+  -->
 </div>
 </template>
 
