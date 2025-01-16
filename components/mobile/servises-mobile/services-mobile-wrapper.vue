@@ -78,6 +78,27 @@
         </div>
       </div>
     </div>
+    <div class="bathroom-title w-100 h-auto">
+      <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
+        <h2 class="text-5xl text-center  font-extrabold pt-4">Frameless "Floating" Stretch Ceiling</h2>
+        <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+        <blockquote class="block-title p-4 m-4 text-xl font-bold">
+          At Rollson, we understand the transformative power of light in creating breathtaking environments. Our backlit
+          ceilings combine cutting-edge LED technology with premium translucent stretch diffusers to illuminate your space like never before.
+        </blockquote>
+        <div class="button-container">
+          <h6 class="p-4">Learn more about Stretch Ceiling and to schedule your free estimate.</h6>
+          <button class="testbutton">
+            <h6 class="menu-item"><NuxtLink to="/frameless_floating">
+              <a href="">Learn more</a>
+            </NuxtLink></h6>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="bathroom-img w-100 h-auto">
+      <img loading="lazy" src="@/assets/images/Frameless_Floating/Frameless_Floating_SC_9.webp" alt="">
+    </div>
     <!--
     <div class="bathroom-img w-100 h-auto">
       <img loading="lazy" src="@/assets/images/Venetian%20plaster/venetsianskaja_shtukaturka_foto_34.jpg" alt="">
