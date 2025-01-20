@@ -61,10 +61,10 @@
     </div>
     <div class="bathroom-title w-100 h-auto">
       <div class="w-100 h-full flex flex-col columns-1 justify-center items-center align-center">
-        <h2 class="text-5xl text-center  font-extrabold pt-4">Hovering lines</h2>
+        <h2 class="text-5xl text-center  font-extrabold pt-4">Rollson Light Lines </h2>
         <hr class="w-48 h-1 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
         <blockquote class="block-title p-4 m-4 text-xl font-bold">
-          Floating lines for stretch ceilings are a special arrangement of LED strips or lamps in a stretch ceiling,
+          Light Lines for stretch ceilings are a special arrangement of LED strips or lamps in a stretch ceiling,
           which give the feeling that your ceiling is suspended in the air. Lighting a stretch ceiling in this way allows
           you to solve many design problems, increase the space in the room, and also give the room an individual character.
         </blockquote>

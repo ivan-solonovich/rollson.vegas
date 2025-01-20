@@ -21,9 +21,9 @@
       <div class="flex flex-col w-full h-auto py-10 px-2 justify-center  items-center bg-black rounded text-center text-white">
         <h3 class="menu-item text-3xl pb-4"><NuxtLink to="/">Home</NuxtLink></h3>
         <h3 class="menu-item text-3xl pb-4"><NuxtLink to="/about">About</NuxtLink></h3>
-        <h3 class="menu-item text-3xl pb-4"><NuxtLink to="/gallery">Gallery</NuxtLink></h3>
+        <h3 class="menu-item text-3xl pb-4"><NuxtLink to="/hoveringlines">Light Lines</NuxtLink></h3>
         <h3 class="menu-item text-3xl pb-4"><NuxtLink to="/frameless_floating">Frameless "Floating"</NuxtLink></h3>
-
+        <h3 class="menu-item text-3xl pb-4"><NuxtLink to="/gallery">Gallery</NuxtLink></h3>
       </div>
       <div class="flex flex-col w-full h-auto py-10 px-2 justify-center  items-center bg-black rounded text-center text-white">
         <img src="@/assets/images/footer/ROLLSON_bussines_card_1.avif" alt="">

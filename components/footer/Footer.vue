@@ -10,10 +10,9 @@
               <div class="f-item-wrapper">
                 <h3  class="f-item"><NuxtLink to="/">Home</NuxtLink></h3>
                 <h3  class="f-item"><NuxtLink to="/about">About</NuxtLink></h3>
+                <h3 class="f-item"><NuxtLink to="/hoveringlines">Light Lines</NuxtLink></h3>
+                <h3 class="f-item"><NuxtLink to="/frameless_floating">Frameless "Floating"</NuxtLink></h3>
                 <h3 class="f-item"><NuxtLink to="gallery">Gallery</NuxtLink></h3>
-                <h3 class="f-item">Services</h3>
-                <h3 class="f-item">Contact</h3>
-                <h3 class="f-item">Blog</h3>
               </div>
             </div>
             <div class="f-company">

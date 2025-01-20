@@ -14,6 +14,7 @@
 
         <h6 class="menu-item"><NuxtLink to="/">Home</NuxtLink></h6>
         <h6 class="menu-item"><NuxtLink to="/about">About</NuxtLink></h6>
+        <h6 class="menu-item"><NuxtLink to="/hoveringlines">Light Lines</NuxtLink></h6>
         <h6 class="menu-item"><NuxtLink to="/frameless_floating">Frameless "Floating"</NuxtLink></h6>
         <h6 class="menu-item"><NuxtLink to="/gallery">Gallery</NuxtLink></h6>
 

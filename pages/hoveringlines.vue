@@ -18,21 +18,48 @@ const { isTablet } = useDevice();
         <AppHeader/>
         <div class="w-100 h-100 flex flex-col justify-center align-middle">
           <hr class="w-2/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
-          <h1 class="services-title text-white p-8 text-7xl text-center">Hovering lines</h1>
+          <h1 class="services-title text-white p-8 text-7xl text-center uppercase">Light Lines</h1>
           <hr class="w-2/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
         </div>
         <div class="about-wrapper grid grid-cols-1 gap-8">
           <div class="about-article text-white flex flex-col p-8 m-8">
-            <h1 class="title-article-about text-5xl text-center"> Floating lines for stretch ceilings</h1>
+            <h1 class="title-article-about text-5xl text-center"> Light Lines for stretch ceilings</h1>
+            <div class="left-0">
             <p>
               Stretch ceilings have become increasingly popular in interior design due to their versatility and aesthetic
               appeal. One of the most sought-after designs is the soaring lines pattern, which offers several advantages
               for homeowners.
             </p>
+            <h4>
+            Rollson Light Lines revolutionise the illumination of spaces by integrating with the entire range of Rollson’s stretch products to create a minimalist and unique aesthetic within the ceiling.
+            </h4>
+            <h4>
+              Characterised by its ability to create clean and uniform lighting designs, the flexible and versatile nature of Rollson Light Lines allows you construct the exact look you want, from a palette of over 300 colours and finishes.
+            </h4>
+              <h3>Creative Lighting</h3>
+              <h4>Adaptable to all shapes, Light Lines enable the invisible integration of LED lighting systems in both straight and rounded designs.</h4>
 
+              <h4>These creative light profiles provide a fully optimised lighting system without the need for additional diffusers, saving energy and extending the life of the LEDs.
+            </h4>
+
+
+          </div>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
-            <h2 class="text-4xl text-center font-bold"> MAIN ADVANTAGES OF SOARING LINES:</h2>
+            <h2 class="text-4xl text-center font-bold"> MAIN ADVANTAGES OF SOARING LIGHT LINES:</h2>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
+            <div class="pb-4">
+                <ol class="list-disc">
+                  <li>Reduced power consumption</li>
+                  <li>Energy saving, very low voltage electrical system</li>
+                  <li>Extended LED lifetime</li>
+                  <li>Invisible integration</li>
+                  <li>Significant choice of technical solutions</li>
+                  <li>Over 300 colours and finishes to choose from</li>
+                  <li>Small footprint with only a 20mm aperture</li>
+                  <li>Adaptable to all shapes with both straight and rounded designs</li>
+                  <li>Dimmable lighting with easy change LEDs</li>
+                </ol>
+            </div>
             <p>
               Stretch ceilings are extremely versatile and be made to any shape or size to suit any ceiling or wall space.
             </p>
@@ -127,6 +154,7 @@ const { isTablet } = useDevice();
             </div>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
           </div>
+
           <div class="about-article text-white flex flex-col text-center justify-center p-8 m-8">
             <iframe allow="fullscreen" allowfullscreen height="720" src="https://streamable.com/e/yktw5c?loop=0" width="720" style="border:none;"></iframe>
           </div>
