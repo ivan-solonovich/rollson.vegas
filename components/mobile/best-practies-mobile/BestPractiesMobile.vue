@@ -27,7 +27,7 @@ import BP_5 from "~/components/bestpracties/BP_5.vue";
         <h1 class="text-4xl font-extrabold text-white m-10 best-practies-item-title">
           Explore Our Services
         </h1>
-        <div class="feauters text-lg text-white ">
+        <div class="feauters text-white ">
           <ol class=" w-100 text-left list-disc">
             <li class="pb-8 ml-10 mr-10 text-2xl">Quality Products: At Rollson, we source only the highest quality materials for our stretch ceilings
               and lighting systems. Our products are designed to be durable, aesthetically pleasing, and
