@@ -21,7 +21,7 @@
       <div class="flex flex-col w-full h-auto py-10 px-2 justify-center  items-center bg-black rounded text-center text-white">
         <h3 class="menu-item"><NuxtLink to="/">Home</NuxtLink></h3>
         <h3 class="menu-item"><NuxtLink to="/about">About</NuxtLink></h3>
-        <h3 class="menu-item"><NuxtLink to="/hoveringlines.vue">Light Lines</NuxtLink></h3>
+        <h3 class="menu-item"><NuxtLink to="/hoveringlines">Light Lines</NuxtLink></h3>
         <h3 class="menu-item"><NuxtLink to="/frameless_floating">Frameless "Floating"</NuxtLink></h3>
         <h3 class="menu-item"><NuxtLink to="/gallery">Gallery</NuxtLink></h3>
       </div>
