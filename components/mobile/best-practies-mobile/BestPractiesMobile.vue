@@ -60,9 +60,14 @@ import BP_5 from "~/components/bestpracties/BP_5.vue";
       </div>
     </div>
   </div>
+  <div class="button-container">
+    <h2 class="pb-4">Contact us today to learn more about our services and to schedule your free estimate.</h2>
+    <button class="testbutton"><a href="+17252220550">&#9742; (725) 222-0550</a></button>
+  </div>
 </template>
 
 <style scoped>
+@import url("@/assets/css/best-practice-card-item.css");
 .bp-wrapper{
   background-color: black;
 }
