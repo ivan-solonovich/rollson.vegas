@@ -100,9 +100,7 @@ const { isTablet } = useDevice();
         </div>
       </div>
       <div class="about-wrapper grid grid-cols-1 gap-8">
-        <div class="about-article text-white flex flex-col p-8 m-8">
-          <div style="position:relative; width:100%; height:0px; padding-bottom:56.250%"><iframe allow="fullscreen" allowfullscreen height="100%" src="https://streamable.com/e/c9t6if?loop=0" width="100%" style="border:none; width:100%; height:100%; position:absolute; left:0px; top:0px; overflow:hidden;"></iframe></div>
-        </div>
+
         <div class="about-wrapper grid grid-cols-2 gap-8">
           <div class="about-article text-white flex flex-col p-8 m-8">
             <h1 class="text-3xl title-article-about">Welcome to Rollson - Your Trusted Home Renovation Company in Las Vegas</h1>
