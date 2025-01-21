@@ -24,8 +24,8 @@ const { isTablet } = useDevice();
         <div class="about-wrapper grid grid-cols-1 gap-8">
           <div class="about-article text-white flex flex-col p-8 m-8">
             <h1 class="title-article-about text-5xl text-center"> Light Lines for stretch ceilings</h1>
-            <div class="left-0">
-            <p>
+            <div class="w-2/3 left-0">
+            <p class="w-3/4">
               Stretch ceilings have become increasingly popular in interior design due to their versatility and aesthetic
               appeal. One of the most sought-after designs is the soaring lines pattern, which offers several advantages
               for homeowners.
@@ -48,97 +48,97 @@ const { isTablet } = useDevice();
             <h2 class="text-4xl text-center font-bold"> MAIN ADVANTAGES OF SOARING LIGHT LINES:</h2>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
             <div class="pb-4">
-                <ol class="list-disc">
-                  <li>Reduced power consumption</li>
-                  <li>Energy saving, very low voltage electrical system</li>
-                  <li>Extended LED lifetime</li>
-                  <li>Invisible integration</li>
-                  <li>Significant choice of technical solutions</li>
-                  <li>Over 300 colours and finishes to choose from</li>
-                  <li>Small footprint with only a 20mm aperture</li>
-                  <li>Adaptable to all shapes with both straight and rounded designs</li>
-                  <li>Dimmable lighting with easy change LEDs</li>
+                <ol class="list-disc text-2xl">
+                  <li class="pb-4">Reduced power consumption</li>
+                  <li class="pb-4">Energy saving, very low voltage electrical system</li>
+                  <li class="pb-4">Energy saving, very low voltage electrical system</li>
+                  <li class="pb-4">Extended LED lifetime</li>
+                  <li class="pb-4">Invisible integration</li>
+                  <li class="pb-4">Significant choice of technical solutions</li>
+                  <li class="pb-4">Over 300 colours and finishes to choose from</li>
+                  <li class="pb-4">Small footprint with only a 20mm aperture</li>
+                  <li class="pb-4">Adaptable to all shapes with both straight and rounded designs</li>
+                  <li class="pb-4">Dimmable lighting with easy change LEDs</li>
                 </ol>
             </div>
-            <p>
-              Stretch ceilings are extremely versatile and be made to any shape or size to suit any ceiling or wall space.
+            <p class="w-2/3">Stretch ceilings are extremely versatile and be made to any shape or size to suit any ceiling or wall space.
             </p>
-            <p>We can also work with you to ensure the correct perimeter and background structures are in place to take
+            <p class="w-2/3">We can also work with you to ensure the correct perimeter and background structures are in place to take
               the system and advise you on the optimal depth required to achieve uniform illumination without spotting or shadowing</p>
-            <div class="bathroom-img w-100 h-auto pt-4">
-              <img loading="lazy" src="@/assets/images/streich-sailing/HL-2.avif" alt="">
+            <div class="bathroom-img w-100 h-auto flex justify-center align-middle pt-4">
+              <img class="image-light" loading="lazy" src="@/assets/images/streich-sailing/HL-2.avif" alt="">
             </div>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
             <h2 class="text-4xl text-center font-bold"> Increasing the Visual Space of the Room:</h2>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
-            <p>
+            <p class="w-2/3">
               One of the primary benefits of using soaring lines for stretch ceilings is the ability to visually expand
               the space in a room. The upward lines create an illusion of height, making the room appear larger and more
               spacious. This is particularly beneficial for smaller rooms or spaces with low ceilings,
               as it can make them feel more open and airy.
             </p>
-            <div class="bathroom-img w-100 h-auto pt-4">
-              <img loading="lazy" src="@/assets/images/streich-sailing/HL-3.avif" alt="">
+            <div class="w-100  flex justify-center align-middle pt-4">
+              <img class="image-light" loading="lazy" src="@/assets/images/streich-sailing/HL-3.avif" alt="">
             </div>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
             <h2 class="text-4xl text-center font-bold">Various Color Solutions of Your Choice </h2>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
-            <p>
+            <p class="w-2/3">
               With soaring lines, you have the freedom to choose from a wide range of color options for your stretch ceiling.
               Whether you prefer bold and vibrant colors or subtle and neutral tones, there is a color
               solution to suit your taste and interior design theme. This allows you to customize the
               ceiling to match the overall aesthetic of the room.
             </p>
-            <div class="bathroom-img w-100 h-auto pt-4">
-              <img loading="lazy" src="@/assets/images/streich-sailing/HL-4.avif" alt="">
+            <div class=" w-100 h-auto flex justify-center align-middle pt-4">
+              <img class="image-light" loading="lazy" src="@/assets/images/streich-sailing/HL-9.avif" alt="">
             </div>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
             <h2 class="text-4xl text-center font-bold">Possibility of Using Several Tones:</h2>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
-            <p>
+            <p class="w-2/3">
               Another advantage of soaring lines for stretch ceilings is the possibility of using multiple tones.
               This means you can create a unique and dynamic visual effect by combining different colors within the pattern.
               Whether you want a monochromatic look or a contrasting color scheme, the flexibility of using several
               tones adds depth and visual interest to the ceiling.
             </p>
-            <div class="bathroom-img w-100 h-auto pt-4">
-              <img loading="lazy" src="@/assets/images/streich-sailing/HL-5.avif" alt="">
+            <div class="bathroom-img w-100 h-auto flex justify-center align-middle pt-4">
+              <img class="image-light" loading="lazy" src="@/assets/images/streich-sailing/HL-5.avif" alt="">
             </div>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
             <h2 class="text-4xl text-center font-bold">Using Various Shapes and Figures:</h2>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
-            <p>
+            <p class="w-2/3">
               Soaring lines offer endless possibilities when it comes to shapes and figures.
               Whether you prefer straight lines, curves, or geometric patterns, you can create a design that suits your
               style. The versatility of using various shapes and figures allows you to add a touch of creativity
               and uniqueness to your stretch ceiling.
             </p>
-            <div class="bathroom-img w-100 h-auto pt-4">
-              <img loading="lazy" src="@/assets/images/streich-sailing/HL-6.avif" alt="">
+            <div class="bathroom-img w-100 h-auto flex justify-center align-middle pt-4">
+              <img class="image-light" loading="lazy" src="@/assets/images/streich-sailing/HL-6.avif" alt="">
             </div>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
             <h2 class="text-4xl text-center font-bold">Quick Installation:</h2>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
-            <p>
+            <p class="w-2/3">
               One of the practical advantages of soaring lines for stretch ceilings is the quick installation process.
               Professional installers can efficiently install the stretch ceiling with the soaring lines pattern,
               saving you time and minimizing disruption to your daily routine. This is especially beneficial for
               those who want to renovate or update their ceiling without extensive construction work.
             </p>
-            <div class="bathroom-img w-100 h-auto pt-4">
-              <img loading="lazy" src="@/assets/images/streich-sailing/HL-7.avif" alt="">
+            <div class="bathroom-img w-100 h-auto flex justify-center align-middle pt-4">
+              <img class="image-light" loading="lazy" src="@/assets/images/streich-sailing/HL-7.avif" alt="">
             </div>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
             <h2 class="text-4xl text-center font-bold">Energy-Saving Lighting:</h2>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
-            <p>
+            <p class="w-2/3">
               By incorporating energy-saving lighting into the stretch ceiling, you can save electricity and
               reduce your energy costs. The LED strip lights used in conjunction with the soaring lines
               pattern can create a streamlined effect in the room. The correctly adjusted incidence of light
               enhances the overall ambiance and adds a modern touch to the space.
             </p>
-            <div class="bathroom-img w-100 h-auto pt-4">
-              <img loading="lazy" src="@/assets/images/streich-sailing/HL-8.avif" alt="">
+            <div class="bathroom-img w-100 h-auto flex justify-center align-middle pt-4">
+              <img class="image-light" loading="lazy" src="@/assets/images/streich-sailing/HL-8.avif" alt="">
             </div>
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
             <p class="text-2xl text-center">
@@ -149,9 +149,7 @@ const { isTablet } = useDevice();
               interior design. Consider incorporating this design element into your next home renovation project to
               elevate the aesthetics of your living space.
             </p>
-            <div class="bathroom-img w-100 h-auto pt-4">
-              <img loading="lazy" src="@/assets/images/streich-sailing/HL-9.avif" alt="">
-            </div>
+
             <hr class="w-1/3 h-2 mx-auto my-4 bg-gray-100 border-0 rounded md:my-10 dark:bg-gray-700">
           </div>
 
@@ -174,7 +172,7 @@ const { isTablet } = useDevice();
       </div>
       <div class="about-wrapper grid grid-cols-1 gap-8">
 
-        <div class="about-article text-white flex flex-col p-8 m-8">
+        <div class="about-article text-white flex flex-col p-8">
           <h1 class="title-article-about text-5xl text-center"> Light Lines for stretch ceilings</h1>
           <div class="left-0">
             <p>
@@ -360,5 +358,8 @@ const { isTablet } = useDevice();
   font-family: Azonix;
   padding-bottom: 2rem;
 }
-
+.image-light{
+ width: 70%;
+  height: auto;
+}
 </style>
